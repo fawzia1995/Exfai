@@ -1,3 +1,5 @@
+// ignore_for_file: duplicate_export
+
 export 'linkapi.dart';
 export 'main.dart';
 export 'routes.dart';

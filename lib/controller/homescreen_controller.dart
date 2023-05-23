@@ -16,9 +16,9 @@ class HomeScreenControllerImp extends HomeScreenController {
   List<Widget> listPage = [
     const HomePage(),
     const NotificationView(),
-    Column(
+    const Column(
       mainAxisAlignment: MainAxisAlignment.center,
-      children: const [Center(child: Text("Profile"))],
+      children: [Center(child: Text("Profile"))],
     ),
     const Settings()
   ];
