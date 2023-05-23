@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import '../../all_export.dart';
 
 class CustomAppBar extends StatelessWidget {
   final String titleappbar;
@@ -6,14 +6,15 @@ class CustomAppBar extends StatelessWidget {
   final void Function()? onPressedSearch;
   final void Function(String)? onChanged;
   final TextEditingController mycontroller;
-  final IconData iconData ; 
+  final IconData iconData;
   const CustomAppBar(
       {Key? key,
       required this.titleappbar,
       this.onPressedSearch,
       required this.onPressedIconFavorite,
       this.onChanged,
-      required this.mycontroller,   this.iconData =   Icons.favorite_border_outlined})
+      required this.mycontroller,
+      this.iconData = Icons.favorite_border_outlined})
       : super(key: key);
 
   @override
@@ -45,7 +46,7 @@ class CustomAppBar extends StatelessWidget {
           child: IconButton(
               onPressed: onPressedIconFavorite,
               icon: Icon(
-              iconData,
+                iconData,
                 size: 30,
                 color: Colors.grey[600],
               )),

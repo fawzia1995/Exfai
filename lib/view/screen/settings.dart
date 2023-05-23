@@ -1,10 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-
-import '../../controller/settings_controller.dart';
-import '../../core/constant/color.dart';
-import '../../core/constant/imgaeasset.dart';
-import '../../core/constant/routes.dart';
+import '../../all_export.dart';
 
 class Settings extends StatelessWidget {
   const Settings({Key? key}) : super(key: key);

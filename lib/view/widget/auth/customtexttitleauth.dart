@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import '../../../all_export.dart';
 
 class CustomTextTitleAuth extends StatelessWidget {
   final String text;

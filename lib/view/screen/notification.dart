@@ -1,9 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-
-import '../../controller/notification_controller.dart';
-import '../../core/class/handlingdataview.dart';
-import '../../core/constant/color.dart';
+import '../../all_export.dart';
 
 class NotificationView extends StatelessWidget {
   const NotificationView({super.key});

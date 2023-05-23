@@ -1,11 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-
-import '../../controller/onboarding_controller.dart';
-import '../../core/constant/color.dart';
-import '../widget/onboarding/custombutton.dart';
-import '../widget/onboarding/customslider.dart';
-import '../widget/onboarding/dotcontroller.dart';
+import '../../all_export.dart';
 
 class OnBoarding extends StatelessWidget {
   const OnBoarding({Key? key}) : super(key: key);
@@ -37,10 +30,10 @@ class OnBoarding extends StatelessWidget {
                 flex: 4,
                 child: CustomSliderOnBoarding(),
               ),
-              Expanded(
+              const Expanded(
                   flex: 1,
                   child: Column(
-                    children: const [
+                    children: [
                       CustomDotControllerOnBoarding(),
                       Spacer(flex: 2),
                       CustomButtonOnBoarding()

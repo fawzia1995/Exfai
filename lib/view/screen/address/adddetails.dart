@@ -1,10 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-
-import '../../../controller/address/adddetails_controller.dart';
-import '../../../core/class/handlingdataview.dart';
-import '../../../core/shared/custombutton.dart';
-import '../../widget/auth/customtextformauth.dart';
+import '../../../all_export.dart';
 
 class AddressAddDetails extends StatelessWidget {
   const AddressAddDetails({Key? key}) : super(key: key);

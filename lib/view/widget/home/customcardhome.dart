@@ -1,8 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-
-import '../../../controller/home_controller.dart';
-import '../../../core/constant/color.dart';
+import '../../../all_export.dart';
 
 class CustomCardHome extends GetView<HomeControllerImp> {
   final String title;

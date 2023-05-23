@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import '../../../all_export.dart';
 
 class CustomTextFormAuth extends StatelessWidget {
   final String hinttext;

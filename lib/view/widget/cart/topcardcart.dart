@@ -1,6 +1,4 @@
-import 'package:flutter/material.dart';
-
-import '../../../core/constant/color.dart';
+import '../../../all_export.dart';
 
 class TopCardCart extends StatelessWidget {
   final String message;

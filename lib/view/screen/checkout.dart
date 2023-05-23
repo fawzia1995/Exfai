@@ -1,13 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-
-import '../../controller/checkout_controller.dart';
-import '../../core/class/handlingdataview.dart';
-import '../../core/constant/color.dart';
-import '../../core/constant/imgaeasset.dart';
-import '../widget/checkout/carddeliveerytype.dart';
-import '../widget/checkout/cardpaymentmethod.dart';
-import '../widget/checkout/cardshippingaddress.dart';
+import '../../all_export.dart';
 
 class Checkout extends StatelessWidget {
   const Checkout({Key? key}) : super(key: key);
@@ -79,7 +70,8 @@ class Checkout extends StatelessWidget {
                         children: [
                           InkWell(
                             onTap: () {
-                              controller.chooseDeliveryType("0");// 0 => Delivery
+                              controller
+                                  .chooseDeliveryType("0"); // 0 => Delivery
                             },
                             child: CardDeliveryTypeCheckout(
                                 imagename: AppImageAsset.deliveryImage2,

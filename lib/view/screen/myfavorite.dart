@@ -1,11 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-
-import '../../controller/myfavoritecontroller.dart';
-import '../../core/class/handlingdataview.dart';
-import '../../core/constant/routes.dart';
-import '../widget/customappbar.dart';
-import '../widget/myfavorite/customlistfavoriteitems.dart';
+import '../../all_export.dart';
 
 class MyFavorite extends StatelessWidget {
   const MyFavorite({Key? key}) : super(key: key);

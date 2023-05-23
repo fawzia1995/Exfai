@@ -1,10 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-
-import '../../../controller/orders/pending_controller.dart';
-import '../../../core/constant/color.dart';
-import '../../../core/constant/routes.dart';
-import '../../../data/model/ordersmodel.dart';
+import '../../../all_export.dart';
 
 class CardOrdersList extends GetView<OrdersPendingController> {
   final OrdersModel listdata;
@@ -12,7 +6,6 @@ class CardOrdersList extends GetView<OrdersPendingController> {
 
   @override
   Widget build(BuildContext context) {
-    
     return Card(
       child: Container(
           padding: const EdgeInsets.all(10),
@@ -25,7 +18,7 @@ class CardOrdersList extends GetView<OrdersPendingController> {
                       style: const TextStyle(
                           fontSize: 18, fontWeight: FontWeight.bold)),
                   const Spacer(),
-                  
+
                   // Text(listdata.ordersDatetime!)
                   // Text(
                   //   Jiffy(listdata.ordersDatetime!, "yyyy-MM-dd").fromNow(),
@@ -44,7 +37,6 @@ class CardOrdersList extends GetView<OrdersPendingController> {
                   "Payment Method : ${controller.printPaymentMethod(listdata.ordersPaymentmethod!)} "),
               Text(
                   "Order Status : ${controller.printOrderStatus(listdata.ordersStatus!)} "),
-                  
               const Divider(),
               Row(
                 children: [
@@ -79,5 +71,3 @@ class CardOrdersList extends GetView<OrdersPendingController> {
     );
   }
 }
-
-

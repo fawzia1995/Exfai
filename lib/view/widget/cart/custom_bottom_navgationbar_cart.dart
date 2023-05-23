@@ -1,12 +1,6 @@
 // ignore_for_file: prefer_const_constructors
 
-import 'package:exfai/view/widget/cart/buttoncart.dart';
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-
-import '../../../controller/cart_controller.dart';
-import '../../../core/constant/color.dart';
-import 'custombuttoncoupon.dart';
+import '../../../all_export.dart';
 
 class BottomNavgationBarCart extends GetView<CartController> {
   final String price;

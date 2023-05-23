@@ -1,9 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-
-import '../../../controller/orders/archive_controller.dart';
-import '../../../core/class/handlingdataview.dart';
-import '../../widget/orders/orderslistcardarchive.dart';
+import '../../../all_export.dart';
 
 class OrdersArchiveView extends StatelessWidget {
   const OrdersArchiveView({Key? key}) : super(key: key);

@@ -1,10 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-
-import '../../controller/homescreen_controller.dart';
-import '../../core/constant/color.dart';
-import '../../core/constant/routes.dart';
-import '../widget/home/custombottomappbarhome.dart';
+import '../../all_export.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);

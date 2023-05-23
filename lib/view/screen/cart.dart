@@ -1,12 +1,6 @@
 // ignore_for_file: prefer_const_constructors
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 
-import '../../controller/cart_controller.dart';
-import '../../core/class/handlingdataview.dart';
-import '../widget/cart/custom_bottom_navgationbar_cart.dart';
-import '../widget/cart/customitemscartlist.dart';
-import '../widget/cart/topcardcart.dart';
+import '../../all_export.dart';
 
 class Cart extends StatelessWidget {
   const Cart({Key? key}) : super(key: key);

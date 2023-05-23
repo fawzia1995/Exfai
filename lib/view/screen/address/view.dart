@@ -1,10 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-
-import '../../../controller/address/view_controller.dart';
-import '../../../core/class/handlingdataview.dart';
-import '../../../core/constant/routes.dart';
-import '../../../data/model/addressmodel.dart';
+import '../../../all_export.dart';
 
 class AddressView extends StatelessWidget {
   const AddressView({Key? key}) : super(key: key);

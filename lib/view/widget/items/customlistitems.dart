@@ -1,14 +1,4 @@
-import 'package:cached_network_image/cached_network_image.dart';
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-
-import '../../../controller/favorite_controller.dart';
-import '../../../controller/items_controller.dart';
-import '../../../core/constant/color.dart';
-import '../../../core/constant/imgaeasset.dart';
-import '../../../core/functions/translatefatabase.dart';
-import '../../../data/model/itemsmodel.dart';
-import '../../../linkapi.dart';
+import '../../../all_export.dart';
 
 class CustomListItems extends GetView<ItemsControllerImp> {
   final ItemsModel itemsModel;

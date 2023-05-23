@@ -1,7 +1,4 @@
-import 'package:flutter/material.dart';
-
-import 'core/constant/color.dart';
-import 'core/constant/imgaeasset.dart';
+import 'all_export.dart';
 
 class TestView extends StatelessWidget {
   const TestView({Key? key}) : super(key: key);

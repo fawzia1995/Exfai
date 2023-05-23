@@ -1,9 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-
-import '../../../controller/onboarding_controller.dart';
-import '../../../core/constant/color.dart';
-import '../../../data/datasource/static/static.dart';
+import '../../../all_export.dart';
 
 class CustomSliderOnBoarding extends GetView<OnBoardingControllerImp> {
   const CustomSliderOnBoarding({Key? key}) : super(key: key);

@@ -1,6 +1,4 @@
-import 'package:flutter/material.dart';
-
-import '../../../core/constant/color.dart';
+import '../../../all_export.dart';
 
 class CardShppingAddressCheckout extends StatelessWidget {
   final String title;

@@ -1,8 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-
-import '../../../controller/productdetails_controller.dart';
-import '../../../core/constant/color.dart';
+import '../../../all_export.dart';
 
 class SubitemsList extends GetView<ProductDetailsControllerImp> {
   const SubitemsList({Key? key}) : super(key: key);

@@ -1,10 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-
-import '../../../controller/items_controller.dart';
-import '../../../core/constant/color.dart';
-import '../../../core/functions/translatefatabase.dart';
-import '../../../data/model/categoriesmodel.dart';
+import '../../../all_export.dart';
 
 class ListCategoriesItems extends GetView<ItemsControllerImp> {
   const ListCategoriesItems({Key? key}) : super(key: key);

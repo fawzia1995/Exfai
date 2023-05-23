@@ -1,10 +1,4 @@
-import 'package:cached_network_image/cached_network_image.dart';
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-
-import '../../../controller/productdetails_controller.dart';
-import '../../../core/constant/color.dart';
-import '../../../linkapi.dart';
+import '../../../all_export.dart';
 
 class TopProductPageDetails extends GetView<ProductDetailsControllerImp> {
   const TopProductPageDetails({Key? key}) : super(key: key);

@@ -1,10 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-
-import '../../../controller/orders/archive_controller.dart';
-import '../../../core/constant/color.dart';
-import '../../../core/constant/routes.dart';
-import '../../../data/model/ordersmodel.dart';
+import '../../../all_export.dart';
 
 class CardOrdersListArchive extends GetView<OrdersArchiveController> {
   final OrdersModel listdata;

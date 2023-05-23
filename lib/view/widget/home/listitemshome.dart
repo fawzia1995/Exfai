@@ -1,10 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-
-import '../../../controller/home_controller.dart';
-import '../../../core/constant/color.dart';
-import '../../../data/model/itemsmodel.dart';
-import '../../../linkapi.dart';
+import '../../../all_export.dart';
 
 class ListItemsHome extends GetView<HomeControllerImp> {
   const ListItemsHome({Key? key}) : super(key: key);

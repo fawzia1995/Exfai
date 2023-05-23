@@ -1,9 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-
-import '../../../controller/orders/pending_controller.dart';
-import '../../../core/class/handlingdataview.dart';
-import '../../widget/orders/orderslistcard.dart';
+import '../../../all_export.dart';
 
 class OrdersPending extends StatelessWidget {
   const OrdersPending({Key? key}) : super(key: key);

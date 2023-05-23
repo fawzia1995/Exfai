@@ -1,20 +1,10 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-
-import '../../controller/productdetails_controller.dart';
-import '../../core/class/handlingdataview.dart';
-import '../../core/constant/color.dart';
-import '../../core/constant/routes.dart';
-import '../widget/productdetails/priceandcount.dart';
-import '../widget/productdetails/toppageproductdetails.dart';
+import '../../all_export.dart';
 
 class ProductDetails extends StatelessWidget {
   const ProductDetails({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-
-        
     return Scaffold(
         bottomNavigationBar: Container(
             margin: const EdgeInsets.symmetric(horizontal: 10, vertical: 10),

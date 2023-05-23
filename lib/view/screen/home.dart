@@ -1,17 +1,4 @@
-import 'package:cached_network_image/cached_network_image.dart';
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-
-import '../../controller/home_controller.dart';
-import '../../core/class/handlingdataview.dart';
-import '../../core/constant/routes.dart';
-import '../../data/model/itemsmodel.dart';
-import '../../linkapi.dart';
-import '../widget/customappbar.dart';
-import '../widget/home/customcardhome.dart';
-import '../widget/home/customtitlehome.dart';
-import '../widget/home/listcategorieshome.dart';
-import '../widget/home/listitemshome.dart';
+import '../../all_export.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -41,9 +28,9 @@ class HomePage extends StatelessWidget {
                 HandlingDataView(
                   statusRequest: controller.statusRequest,
                   widget: controller.isSearch
-                      ? Column(
+                      ? const Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: const [
+                          children: [
                             CustomCardHome(
                                 title: "A summer surprise",
                                 body: "Cashback 20%"),
