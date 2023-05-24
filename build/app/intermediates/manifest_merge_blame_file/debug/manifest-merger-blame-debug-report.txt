@@ -13,81 +13,81 @@
 13         to allow setting breakpoints, to provide hot reload, etc.
 14    -->
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->D:\exfai\android\app\src\debug\AndroidManifest.xml:7:5-66
-15-->D:\exfai\android\app\src\debug\AndroidManifest.xml:7:22-64
+15-->C:\Users\islam\Downloads\test\Exfai\android\app\src\debug\AndroidManifest.xml:7:5-66
+15-->C:\Users\islam\Downloads\test\Exfai\android\app\src\debug\AndroidManifest.xml:7:22-64
 16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-16-->D:\exfai\android\app\src\main\AndroidManifest.xml:34:9-83
-16-->D:\exfai\android\app\src\main\AndroidManifest.xml:34:26-80
+16-->C:\Users\islam\Downloads\test\Exfai\android\app\src\main\AndroidManifest.xml:34:9-83
+16-->C:\Users\islam\Downloads\test\Exfai\android\app\src\main\AndroidManifest.xml:34:26-80
 17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-17-->D:\exfai\android\app\src\main\AndroidManifest.xml:35:9-85
-17-->D:\exfai\android\app\src\main\AndroidManifest.xml:35:26-82
+17-->C:\Users\islam\Downloads\test\Exfai\android\app\src\main\AndroidManifest.xml:35:9-85
+17-->C:\Users\islam\Downloads\test\Exfai\android\app\src\main\AndroidManifest.xml:35:26-82
 18    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
-18-->D:\exfai\android\app\src\main\AndroidManifest.xml:36:9-89
-18-->D:\exfai\android\app\src\main\AndroidManifest.xml:36:26-86
+18-->C:\Users\islam\Downloads\test\Exfai\android\app\src\main\AndroidManifest.xml:36:9-89
+18-->C:\Users\islam\Downloads\test\Exfai\android\app\src\main\AndroidManifest.xml:36:26-86
 19    <uses-permission android:name="android.permission.WAKE_LOCK" />
-19-->[:firebase_messaging] D:\exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-68
-19-->[:firebase_messaging] D:\exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-65
+19-->[:firebase_messaging] C:\Users\islam\Downloads\test\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-68
+19-->[:firebase_messaging] C:\Users\islam\Downloads\test\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-65
 20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Permissions options for the `notification` group -->
-20-->[:firebase_messaging] D:\exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-79
-20-->[:firebase_messaging] D:\exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-76
+20-->[:firebase_messaging] C:\Users\islam\Downloads\test\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-79
+20-->[:firebase_messaging] C:\Users\islam\Downloads\test\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-76
 21    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
-21-->[:firebase_messaging] D:\exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-77
-21-->[:firebase_messaging] D:\exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:13:22-74
+21-->[:firebase_messaging] C:\Users\islam\Downloads\test\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-77
+21-->[:firebase_messaging] C:\Users\islam\Downloads\test\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:13:22-74
 22    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-22-->[:geolocator_android] D:\exfai\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-77
-22-->[:geolocator_android] D:\exfai\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-74
+22-->[:geolocator_android] C:\Users\islam\Downloads\test\Exfai\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-77
+22-->[:geolocator_android] C:\Users\islam\Downloads\test\Exfai\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-74
 23    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-23-->[:flutter_local_notifications] D:\exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-81
-23-->[:flutter_local_notifications] D:\exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-78
+23-->[:flutter_local_notifications] C:\Users\islam\Downloads\test\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-81
+23-->[:flutter_local_notifications] C:\Users\islam\Downloads\test\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-78
 24    <uses-permission android:name="android.permission.VIBRATE" />
-24-->[:flutter_local_notifications] D:\exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-66
-24-->[:flutter_local_notifications] D:\exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-63
+24-->[:flutter_local_notifications] C:\Users\islam\Downloads\test\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-66
+24-->[:flutter_local_notifications] C:\Users\islam\Downloads\test\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-63
 25    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
-25-->[:flutter_local_notifications] D:\exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-81
-25-->[:flutter_local_notifications] D:\exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-78
+25-->[:flutter_local_notifications] C:\Users\islam\Downloads\test\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-81
+25-->[:flutter_local_notifications] C:\Users\islam\Downloads\test\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-78
 26    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
-26-->[:flutter_local_notifications] D:\exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-79
-26-->[:flutter_local_notifications] D:\exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:12:22-76
+26-->[:flutter_local_notifications] C:\Users\islam\Downloads\test\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-79
+26-->[:flutter_local_notifications] C:\Users\islam\Downloads\test\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:12:22-76
 27    <uses-permission android:name="android.permission.CAMERA" />
-27-->[:scan] D:\exfai\build\scan\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-65
-27-->[:scan] D:\exfai\build\scan\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-62
+27-->[:scan] C:\Users\islam\Downloads\test\Exfai\build\scan\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-65
+27-->[:scan] C:\Users\islam\Downloads\test\Exfai\build\scan\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-62
 28    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-28-->[:image_pickers] D:\exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-71
-28-->[:image_pickers] D:\exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-68
+28-->[:image_pickers] C:\Users\islam\Downloads\test\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-71
+28-->[:image_pickers] C:\Users\islam\Downloads\test\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-68
 29    <uses-permission
-29-->[:image_pickers] D:\exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-13:38
+29-->[:image_pickers] C:\Users\islam\Downloads\test\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-13:38
 30        android:name="android.permission.READ_EXTERNAL_STORAGE"
-30-->[:image_pickers] D:\exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-64
+30-->[:image_pickers] C:\Users\islam\Downloads\test\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-64
 31        android:maxSdkVersion="32" />
-31-->[:image_pickers] D:\exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-35
+31-->[:image_pickers] C:\Users\islam\Downloads\test\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-35
 32    <uses-permission
-32-->[:image_pickers] D:\exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:14:5-16:38
+32-->[:image_pickers] C:\Users\islam\Downloads\test\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:14:5-16:38
 33        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-33-->[:image_pickers] D:\exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-65
+33-->[:image_pickers] C:\Users\islam\Downloads\test\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-65
 34        android:maxSdkVersion="32" />
-34-->[:image_pickers] D:\exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-35
+34-->[:image_pickers] C:\Users\islam\Downloads\test\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-35
 35    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
-35-->[:image_pickers] D:\exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:18:5-76
-35-->[:image_pickers] D:\exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:18:22-73
+35-->[:image_pickers] C:\Users\islam\Downloads\test\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:18:5-76
+35-->[:image_pickers] C:\Users\islam\Downloads\test\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:18:22-73
 36    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
-36-->[:image_pickers] D:\exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:19:5-75
-36-->[:image_pickers] D:\exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:19:22-72
+36-->[:image_pickers] C:\Users\islam\Downloads\test\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:19:5-75
+36-->[:image_pickers] C:\Users\islam\Downloads\test\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:19:22-72
 37
 38    <queries package="com.exfai.exfai" >
-38-->[:image_pickers] D:\exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:22:5-31:15
-38-->[:image_pickers] D:\exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:22:14-40
+38-->[:image_pickers] C:\Users\islam\Downloads\test\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:22:5-31:15
+38-->[:image_pickers] C:\Users\islam\Downloads\test\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:22:14-40
 39        <intent>
-39-->[:image_pickers] D:\exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:23:9-26:18
+39-->[:image_pickers] C:\Users\islam\Downloads\test\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:23:9-26:18
 40            <action android:name="android.media.action.IMAGE_CAPTURE" >
-40-->[:image_pickers] D:\exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-25:22
-40-->[:image_pickers] D:\exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:24:21-70
+40-->[:image_pickers] C:\Users\islam\Downloads\test\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-25:22
+40-->[:image_pickers] C:\Users\islam\Downloads\test\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:24:21-70
 41            </action>
 42        </intent>
 43        <intent>
-43-->[:image_pickers] D:\exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:27:9-30:18
+43-->[:image_pickers] C:\Users\islam\Downloads\test\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:27:9-30:18
 44            <action android:name="android.media.action.ACTION_VIDEO_CAPTURE" >
-44-->[:image_pickers] D:\exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-29:22
-44-->[:image_pickers] D:\exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:28:21-77
+44-->[:image_pickers] C:\Users\islam\Downloads\test\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-29:22
+44-->[:image_pickers] C:\Users\islam\Downloads\test\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:28:21-77
 45            </action>
 46        </intent>
 47        <!-- Needs to be explicitly declared on Android R+ -->
@@ -162,9 +162,9 @@
 85        android:icon="@mipmap/ic_launcher"
 86        android:label="Exfai"
 87        android:networkSecurityConfig="@xml/net_sec"
-87-->[:image_pickers] D:\exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:34:9-53
+87-->[:image_pickers] C:\Users\islam\Downloads\test\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:34:9-53
 88        android:requestLegacyExternalStorage="true" >
-88-->[:image_pickers] D:\exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:35:9-52
+88-->[:image_pickers] C:\Users\islam\Downloads\test\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:35:9-52
 89        <activity
 90            android:name="com.exfai.exfai.MainActivity"
 91            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
@@ -199,31 +199,31 @@
 120            android:value="2" />
 121
 122        <service
-122-->[:cloud_firestore] D:\exfai\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
+122-->[:cloud_firestore] C:\Users\islam\Downloads\test\Exfai\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
 123            android:name="com.google.firebase.components.ComponentDiscoveryService"
-123-->[:cloud_firestore] D:\exfai\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-89
+123-->[:cloud_firestore] C:\Users\islam\Downloads\test\Exfai\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-89
 124            android:directBootAware="true"
 124-->[com.google.firebase:firebase-common:20.3.2] C:\Users\islam\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:34:13-43
 125            android:exported="false" >
 125-->[com.google.firebase:firebase-firestore:24.6.0] C:\Users\islam\.gradle\caches\transforms-3\ec3138adb9fecd309911a980fe7066c1\transformed\jetified-firebase-firestore-24.6.0\AndroidManifest.xml:18:13-37
 126            <meta-data
-126-->[:cloud_firestore] D:\exfai\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+126-->[:cloud_firestore] C:\Users\islam\Downloads\test\Exfai\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
 127                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
-127-->[:cloud_firestore] D:\exfai\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-134
+127-->[:cloud_firestore] C:\Users\islam\Downloads\test\Exfai\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-134
 128                android:value="com.google.firebase.components.ComponentRegistrar" />
-128-->[:cloud_firestore] D:\exfai\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+128-->[:cloud_firestore] C:\Users\islam\Downloads\test\Exfai\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
 129            <meta-data
-129-->[:firebase_messaging] D:\exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-40:85
+129-->[:firebase_messaging] C:\Users\islam\Downloads\test\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-40:85
 130                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
-130-->[:firebase_messaging] D:\exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:39:17-128
+130-->[:firebase_messaging] C:\Users\islam\Downloads\test\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:39:17-128
 131                android:value="com.google.firebase.components.ComponentRegistrar" />
-131-->[:firebase_messaging] D:\exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:40:17-82
+131-->[:firebase_messaging] C:\Users\islam\Downloads\test\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:40:17-82
 132            <meta-data
-132-->[:firebase_core] D:\exfai\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+132-->[:firebase_core] C:\Users\islam\Downloads\test\Exfai\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
 133                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-133-->[:firebase_core] D:\exfai\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+133-->[:firebase_core] C:\Users\islam\Downloads\test\Exfai\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
 134                android:value="com.google.firebase.components.ComponentRegistrar" />
-134-->[:firebase_core] D:\exfai\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+134-->[:firebase_core] C:\Users\islam\Downloads\test\Exfai\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
 135            <meta-data
 135-->[com.google.firebase:firebase-firestore:24.6.0] C:\Users\islam\.gradle\caches\transforms-3\ec3138adb9fecd309911a980fe7066c1\transformed\jetified-firebase-firestore-24.6.0\AndroidManifest.xml:19:13-21:85
 136                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
@@ -256,160 +256,160 @@
 149-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\islam\.gradle\caches\transforms-3\41dfe98397e4b9f5ee875d10e366947c\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
 150        </service>
 151        <service
-151-->[:firebase_messaging] D:\exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-19:72
+151-->[:firebase_messaging] C:\Users\islam\Downloads\test\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-19:72
 152            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
-152-->[:firebase_messaging] D:\exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-107
+152-->[:firebase_messaging] C:\Users\islam\Downloads\test\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-107
 153            android:exported="false"
-153-->[:firebase_messaging] D:\exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
+153-->[:firebase_messaging] C:\Users\islam\Downloads\test\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
 154            android:permission="android.permission.BIND_JOB_SERVICE" />
-154-->[:firebase_messaging] D:\exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-69
+154-->[:firebase_messaging] C:\Users\islam\Downloads\test\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-69
 155        <service
-155-->[:firebase_messaging] D:\exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:20:9-26:19
+155-->[:firebase_messaging] C:\Users\islam\Downloads\test\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:20:9-26:19
 156            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
-156-->[:firebase_messaging] D:\exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-97
+156-->[:firebase_messaging] C:\Users\islam\Downloads\test\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-97
 157            android:exported="false" >
-157-->[:firebase_messaging] D:\exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-37
+157-->[:firebase_messaging] C:\Users\islam\Downloads\test\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-37
 158            <intent-filter>
-158-->[:firebase_messaging] D:\exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-25:29
+158-->[:firebase_messaging] C:\Users\islam\Downloads\test\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-25:29
 159                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-159-->[:firebase_messaging] D:\exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:17-78
-159-->[:firebase_messaging] D:\exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:25-75
+159-->[:firebase_messaging] C:\Users\islam\Downloads\test\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:17-78
+159-->[:firebase_messaging] C:\Users\islam\Downloads\test\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:25-75
 160            </intent-filter>
 161        </service>
 162
 163        <receiver
-163-->[:firebase_messaging] D:\exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:28:9-35:20
+163-->[:firebase_messaging] C:\Users\islam\Downloads\test\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:28:9-35:20
 164            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
-164-->[:firebase_messaging] D:\exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-98
+164-->[:firebase_messaging] C:\Users\islam\Downloads\test\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-98
 165            android:exported="true"
-165-->[:firebase_messaging] D:\exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-36
+165-->[:firebase_messaging] C:\Users\islam\Downloads\test\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-36
 166            android:permission="com.google.android.c2dm.permission.SEND" >
-166-->[:firebase_messaging] D:\exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-73
+166-->[:firebase_messaging] C:\Users\islam\Downloads\test\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-73
 167            <intent-filter>
-167-->[:firebase_messaging] D:\exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-34:29
+167-->[:firebase_messaging] C:\Users\islam\Downloads\test\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-34:29
 168                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-168-->[:firebase_messaging] D:\exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:17-81
-168-->[:firebase_messaging] D:\exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:25-78
+168-->[:firebase_messaging] C:\Users\islam\Downloads\test\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:17-81
+168-->[:firebase_messaging] C:\Users\islam\Downloads\test\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:25-78
 169            </intent-filter>
 170        </receiver>
 171
 172        <provider
-172-->[:firebase_messaging] D:\exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:43:9-47:38
+172-->[:firebase_messaging] C:\Users\islam\Downloads\test\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:43:9-47:38
 173            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
-173-->[:firebase_messaging] D:\exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:44:13-102
+173-->[:firebase_messaging] C:\Users\islam\Downloads\test\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:44:13-102
 174            android:authorities="com.exfai.exfai.flutterfirebasemessaginginitprovider"
-174-->[:firebase_messaging] D:\exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:45:13-88
+174-->[:firebase_messaging] C:\Users\islam\Downloads\test\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:45:13-88
 175            android:exported="false"
-175-->[:firebase_messaging] D:\exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-37
+175-->[:firebase_messaging] C:\Users\islam\Downloads\test\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-37
 176            android:initOrder="99" />
-176-->[:firebase_messaging] D:\exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:47:13-35
+176-->[:firebase_messaging] C:\Users\islam\Downloads\test\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:47:13-35
 177
 178        <service
-178-->[:geolocator_android] D:\exfai\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-16:56
+178-->[:geolocator_android] C:\Users\islam\Downloads\test\Exfai\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-16:56
 179            android:name="com.baseflow.geolocator.GeolocatorLocationService"
-179-->[:geolocator_android] D:\exfai\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-77
+179-->[:geolocator_android] C:\Users\islam\Downloads\test\Exfai\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-77
 180            android:enabled="true"
-180-->[:geolocator_android] D:\exfai\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-35
+180-->[:geolocator_android] C:\Users\islam\Downloads\test\Exfai\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-35
 181            android:exported="false"
-181-->[:geolocator_android] D:\exfai\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-37
+181-->[:geolocator_android] C:\Users\islam\Downloads\test\Exfai\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-37
 182            android:foregroundServiceType="location" />
-182-->[:geolocator_android] D:\exfai\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-53
+182-->[:geolocator_android] C:\Users\islam\Downloads\test\Exfai\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-53
 183
 184        <provider
-184-->[:image_picker_android] D:\exfai\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+184-->[:image_picker_android] C:\Users\islam\Downloads\test\Exfai\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
 185            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
-185-->[:image_picker_android] D:\exfai\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-82
+185-->[:image_picker_android] C:\Users\islam\Downloads\test\Exfai\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-82
 186            android:authorities="com.exfai.exfai.flutter.image_provider"
-186-->[:image_picker_android] D:\exfai\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-74
+186-->[:image_picker_android] C:\Users\islam\Downloads\test\Exfai\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-74
 187            android:exported="false"
-187-->[:image_picker_android] D:\exfai\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+187-->[:image_picker_android] C:\Users\islam\Downloads\test\Exfai\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
 188            android:grantUriPermissions="true" >
-188-->[:image_picker_android] D:\exfai\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+188-->[:image_picker_android] C:\Users\islam\Downloads\test\Exfai\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
 189            <meta-data
-189-->[:image_picker_android] D:\exfai\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:75
+189-->[:image_picker_android] C:\Users\islam\Downloads\test\Exfai\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:75
 190                android:name="android.support.FILE_PROVIDER_PATHS"
-190-->[:image_picker_android] D:\exfai\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+190-->[:image_picker_android] C:\Users\islam\Downloads\test\Exfai\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
 191                android:resource="@xml/flutter_image_picker_file_paths" />
-191-->[:image_picker_android] D:\exfai\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-72
+191-->[:image_picker_android] C:\Users\islam\Downloads\test\Exfai\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-72
 192        </provider>
 193
 194        <receiver
-194-->[:flutter_local_notifications] D:\exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-18:40
+194-->[:flutter_local_notifications] C:\Users\islam\Downloads\test\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-18:40
 195            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
-195-->[:flutter_local_notifications] D:\exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-91
+195-->[:flutter_local_notifications] C:\Users\islam\Downloads\test\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-91
 196            android:exported="false" />
-196-->[:flutter_local_notifications] D:\exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
+196-->[:flutter_local_notifications] C:\Users\islam\Downloads\test\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
 197        <receiver
-197-->[:flutter_local_notifications] D:\exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:19:9-21:40
+197-->[:flutter_local_notifications] C:\Users\islam\Downloads\test\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:19:9-21:40
 198            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
-198-->[:flutter_local_notifications] D:\exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-97
+198-->[:flutter_local_notifications] C:\Users\islam\Downloads\test\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-97
 199            android:exported="false" />
-199-->[:flutter_local_notifications] D:\exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-37
+199-->[:flutter_local_notifications] C:\Users\islam\Downloads\test\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-37
 200        <receiver
-200-->[:flutter_local_notifications] D:\exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:22:9-31:20
+200-->[:flutter_local_notifications] C:\Users\islam\Downloads\test\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:22:9-31:20
 201            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
-201-->[:flutter_local_notifications] D:\exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-101
+201-->[:flutter_local_notifications] C:\Users\islam\Downloads\test\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-101
 202            android:exported="false" >
-202-->[:flutter_local_notifications] D:\exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-37
+202-->[:flutter_local_notifications] C:\Users\islam\Downloads\test\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-37
 203            <intent-filter>
-203-->[:flutter_local_notifications] D:\exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-30:29
+203-->[:flutter_local_notifications] C:\Users\islam\Downloads\test\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-30:29
 204                <action android:name="android.intent.action.BOOT_COMPLETED" />
-204-->[:flutter_local_notifications] D:\exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:26:17-79
-204-->[:flutter_local_notifications] D:\exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:26:25-76
+204-->[:flutter_local_notifications] C:\Users\islam\Downloads\test\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:26:17-79
+204-->[:flutter_local_notifications] C:\Users\islam\Downloads\test\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:26:25-76
 205                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
-205-->[:flutter_local_notifications] D:\exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:27:17-84
-205-->[:flutter_local_notifications] D:\exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:27:25-81
+205-->[:flutter_local_notifications] C:\Users\islam\Downloads\test\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:27:17-84
+205-->[:flutter_local_notifications] C:\Users\islam\Downloads\test\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:27:25-81
 206                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
-206-->[:flutter_local_notifications] D:\exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:28:17-82
-206-->[:flutter_local_notifications] D:\exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:28:25-79
+206-->[:flutter_local_notifications] C:\Users\islam\Downloads\test\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:28:17-82
+206-->[:flutter_local_notifications] C:\Users\islam\Downloads\test\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:28:25-79
 207                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
-207-->[:flutter_local_notifications] D:\exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:17-82
-207-->[:flutter_local_notifications] D:\exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:25-79
+207-->[:flutter_local_notifications] C:\Users\islam\Downloads\test\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:17-82
+207-->[:flutter_local_notifications] C:\Users\islam\Downloads\test\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:25-79
 208            </intent-filter>
 209        </receiver>
 210
 211        <activity
-211-->[:url_launcher_android] D:\exfai\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:74
+211-->[:url_launcher_android] C:\Users\islam\Downloads\test\Exfai\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:74
 212            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
-212-->[:url_launcher_android] D:\exfai\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
+212-->[:url_launcher_android] C:\Users\islam\Downloads\test\Exfai\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
 213            android:exported="false"
-213-->[:url_launcher_android] D:\exfai\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+213-->[:url_launcher_android] C:\Users\islam\Downloads\test\Exfai\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
 214            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" /> <!-- 适配9.0的系统 -->
-214-->[:url_launcher_android] D:\exfai\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
+214-->[:url_launcher_android] C:\Users\islam\Downloads\test\Exfai\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
 215        <uses-library
-215-->[:image_pickers] D:\exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:38:9-40:40
+215-->[:image_pickers] C:\Users\islam\Downloads\test\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:38:9-40:40
 216            android:name="org.apache.http.legacy"
-216-->[:image_pickers] D:\exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:39:13-50
+216-->[:image_pickers] C:\Users\islam\Downloads\test\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:39:13-50
 217            android:required="false" /> <!-- 适配9.0的系统 -->
-217-->[:image_pickers] D:\exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:40:13-37
+217-->[:image_pickers] C:\Users\islam\Downloads\test\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:40:13-37
 218        <activity
-218-->[:image_pickers] D:\exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:42:9-44:49
+218-->[:image_pickers] C:\Users\islam\Downloads\test\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:42:9-44:49
 219            android:name="com.leeson.image_pickers.activitys.PermissionActivity"
-219-->[:image_pickers] D:\exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:43:13-81
+219-->[:image_pickers] C:\Users\islam\Downloads\test\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:43:13-81
 220            android:theme="@style/TransTheme" />
-220-->[:image_pickers] D:\exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:44:13-46
+220-->[:image_pickers] C:\Users\islam\Downloads\test\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:44:13-46
 221        <activity
-221-->[:image_pickers] D:\exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:45:9-47:49
+221-->[:image_pickers] C:\Users\islam\Downloads\test\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:45:9-47:49
 222            android:name="com.leeson.image_pickers.activitys.SelectPicsActivity"
-222-->[:image_pickers] D:\exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-81
+222-->[:image_pickers] C:\Users\islam\Downloads\test\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-81
 223            android:theme="@style/TransTheme" />
-223-->[:image_pickers] D:\exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:47:13-46
+223-->[:image_pickers] C:\Users\islam\Downloads\test\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:47:13-46
 224        <activity
-224-->[:image_pickers] D:\exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:48:9-51:47
+224-->[:image_pickers] C:\Users\islam\Downloads\test\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:48:9-51:47
 225            android:name="com.leeson.image_pickers.activitys.PhotosActivity"
-225-->[:image_pickers] D:\exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:49:13-77
+225-->[:image_pickers] C:\Users\islam\Downloads\test\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:49:13-77
 226            android:configChanges="orientation|screenSize"
-226-->[:image_pickers] D:\exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:50:13-59
+226-->[:image_pickers] C:\Users\islam\Downloads\test\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:50:13-59
 227            android:theme="@style/AppTheme" />
-227-->[:image_pickers] D:\exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:51:13-44
+227-->[:image_pickers] C:\Users\islam\Downloads\test\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:51:13-44
 228        <activity
-228-->[:image_pickers] D:\exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:52:9-55:47
+228-->[:image_pickers] C:\Users\islam\Downloads\test\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:52:9-55:47
 229            android:name="com.leeson.image_pickers.activitys.VideoActivity"
-229-->[:image_pickers] D:\exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:53:13-76
+229-->[:image_pickers] C:\Users\islam\Downloads\test\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:53:13-76
 230            android:configChanges="orientation|screenSize"
-230-->[:image_pickers] D:\exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:54:13-59
+230-->[:image_pickers] C:\Users\islam\Downloads\test\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:54:13-59
 231            android:theme="@style/AppTheme" />
-231-->[:image_pickers] D:\exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:55:13-44
+231-->[:image_pickers] C:\Users\islam\Downloads\test\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:55:13-44
 232
 233        <provider
 233-->[io.github.lucksiege:pictureselector:v3.10.9] C:\Users\islam\.gradle\caches\transforms-3\00c4fe66bb153ddf420be989bdbcc8a3\transformed\jetified-pictureselector-v3.10.9\AndroidManifest.xml:10:9-18:20
@@ -422,11 +422,11 @@
 237            android:grantUriPermissions="true" >
 237-->[io.github.lucksiege:pictureselector:v3.10.9] C:\Users\islam\.gradle\caches\transforms-3\00c4fe66bb153ddf420be989bdbcc8a3\transformed\jetified-pictureselector-v3.10.9\AndroidManifest.xml:14:13-47
 238            <meta-data
-238-->[:image_picker_android] D:\exfai\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:75
+238-->[:image_picker_android] C:\Users\islam\Downloads\test\Exfai\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:75
 239                android:name="android.support.FILE_PROVIDER_PATHS"
-239-->[:image_picker_android] D:\exfai\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+239-->[:image_picker_android] C:\Users\islam\Downloads\test\Exfai\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
 240                android:resource="@xml/ps_file_paths" />
-240-->[:image_picker_android] D:\exfai\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-72
+240-->[:image_picker_android] C:\Users\islam\Downloads\test\Exfai\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-72
 241        </provider>
 242
 243        <service
@@ -510,10 +510,10 @@
 286            android:permission="com.google.android.c2dm.permission.SEND" >
 286-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\islam\.gradle\caches\transforms-3\0096cd9996f4d8d4c58a27f987b42c49\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:34:13-73
 287            <intent-filter>
-287-->[:firebase_messaging] D:\exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-34:29
+287-->[:firebase_messaging] C:\Users\islam\Downloads\test\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-34:29
 288                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-288-->[:firebase_messaging] D:\exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:17-81
-288-->[:firebase_messaging] D:\exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:25-78
+288-->[:firebase_messaging] C:\Users\islam\Downloads\test\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:17-81
+288-->[:firebase_messaging] C:\Users\islam\Downloads\test\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:25-78
 289            </intent-filter>
 290        </receiver>
 291        <!--
@@ -529,10 +529,10 @@
 298            android:exported="false" >
 298-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\islam\.gradle\caches\transforms-3\0096cd9996f4d8d4c58a27f987b42c49\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:47:13-37
 299            <intent-filter android:priority="-500" >
-299-->[:firebase_messaging] D:\exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-25:29
+299-->[:firebase_messaging] C:\Users\islam\Downloads\test\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-25:29
 300                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-300-->[:firebase_messaging] D:\exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:17-78
-300-->[:firebase_messaging] D:\exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:25-75
+300-->[:firebase_messaging] C:\Users\islam\Downloads\test\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:17-78
+300-->[:firebase_messaging] C:\Users\islam\Downloads\test\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:25-75
 301            </intent-filter>
 302        </service>
 303

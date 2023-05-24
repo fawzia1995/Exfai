@@ -93,6 +93,11 @@ export 'package:flutter/material.dart';
 export 'package:get/get.dart';
 export 'package:exfai/view/widget/home/custombottomappbarhome.dart';
 export 'package:exfai/view/screen/home.dart';
+export 'package:exfai/view/screen/home.dart';
+export 'package:exfai/view/widget/home/listcategorieshome.dart';
+
+export '../../all_export.dart';
+
 export 'package:exfai/view/widget/items/customlistitems.dart';
 export 'package:exfai/view/widget/language/custombuttomlang.dart';
 export 'package:exfai/view/widget/myfavorite/customlistfavoriteitems.dart';
