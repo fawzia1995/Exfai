@@ -4,7 +4,7 @@
             "outputFile": "com.exfai.exfai.app-mergeDebugResources-43:/values/values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\islam\\Downloads\\test\\Exfai\\build\\image_pickers\\intermediates\\packaged_res\\debug\\values\\values.xml",
+                    "source": "E:\\Exfai\\build\\image_pickers\\intermediates\\packaged_res\\debug\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,20",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
@@ -262,7 +262,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\islam\\Downloads\\test\\Exfai\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\Users\\islam\\.gradle\\caches\\transforms-3\\2143ce3da57d37a78e8f2b2d285d696a\\transformed\\jetified-compress-v3.10.9\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "42",
+                        "endOffsets": "93"
+                    },
+                    "to": {
+                        "startLines": "837",
+                        "startColumns": "4",
+                        "startOffsets": "45493",
+                        "endColumns": "42",
+                        "endOffsets": "45531"
+                    }
+                },
+                {
+                    "source": "E:\\Exfai\\android\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
@@ -278,23 +295,6 @@
                         "endLines": "2074,2077",
                         "endColumns": "12,12",
                         "endOffsets": "125468,125637"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\islam\\.gradle\\caches\\transforms-3\\2143ce3da57d37a78e8f2b2d285d696a\\transformed\\jetified-compress-v3.10.9\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "42",
-                        "endOffsets": "93"
-                    },
-                    "to": {
-                        "startLines": "837",
-                        "startColumns": "4",
-                        "startOffsets": "45493",
-                        "endColumns": "42",
-                        "endOffsets": "45531"
                     }
                 },
                 {
@@ -351,23 +351,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\islam\\Downloads\\test\\Exfai\\build\\app\\generated\\res\\google-services\\debug\\values\\values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,199,281,385,494,614,709",
-                        "endColumns": "143,81,103,108,119,94,71",
-                        "endOffsets": "194,276,380,489,609,704,776"
-                    },
-                    "to": {
-                        "startLines": "857,860,861,862,863,864,874",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "47935,48231,48313,48417,48526,48646,49804",
-                        "endColumns": "143,81,103,108,119,94,71",
-                        "endOffsets": "48074,48308,48412,48521,48641,48736,49871"
-                    }
-                },
-                {
                     "source": "C:\\Users\\islam\\.gradle\\caches\\transforms-3\\44e0b5b9c59e1518bdd90d689f0d595d\\transformed\\jetified-activity-1.7.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3",
@@ -382,6 +365,23 @@
                         "startOffsets": "40560,42418",
                         "endColumns": "41,59",
                         "endOffsets": "40597,42473"
+                    }
+                },
+                {
+                    "source": "E:\\Exfai\\build\\app\\generated\\res\\google-services\\debug\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,199,281,385,494,614,709",
+                        "endColumns": "143,81,103,108,119,94,71",
+                        "endOffsets": "194,276,380,489,609,704,776"
+                    },
+                    "to": {
+                        "startLines": "857,860,861,862,863,864,874",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "47935,48231,48313,48417,48526,48646,49804",
+                        "endColumns": "143,81,103,108,119,94,71",
+                        "endOffsets": "48074,48308,48412,48521,48641,48736,49871"
                     }
                 },
                 {

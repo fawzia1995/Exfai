@@ -7,7 +7,7 @@ class Items extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    ItemsControllerImp controller = Get.put(ItemsControllerImp());
+    Get.put(ItemsControllerImp());
     FavoriteController controllerFav = Get.put(FavoriteController());
 
     return Scaffold(
@@ -15,41 +15,30 @@ class Items extends StatelessWidget {
         padding: const EdgeInsets.all(15),
         child: ListView(children: [
           CustomAppBar(
-            mycontroller: controller.search!,
             titleappbar: "Find Product",
-            // onPressedIcon: () {},
-            onPressedSearch: () {
-              controller.onSearchItems();
-            },
-            onChanged: (val) {
-              controller.checkSearch(val);
-            },
-            onPressedIconFavorite: () {
-              Get.toNamed(AppRoute.myfavroite);
-            },
+            onPressedSearch: () {},
+            onPressedIconFavorite: () {},
+            mycontroller: TextEditingController(),
           ),
           const SizedBox(height: 20),
           const ListCategoriesItems(),
           GetBuilder<ItemsControllerImp>(
               builder: (controller) => HandlingDataView(
                   statusRequest: controller.statusRequest,
-                  widget: !controller.isSearch
-                      ? GridView.builder(
-                          shrinkWrap: true,
-                          physics: const NeverScrollableScrollPhysics(),
-                          itemCount: controller.data.length,
-                          gridDelegate:
-                              const SliverGridDelegateWithFixedCrossAxisCount(
-                                  crossAxisCount: 2, childAspectRatio: 0.7),
-                          itemBuilder: (BuildContext context, index) {
-                            controllerFav.isFavorite[controller.data[index]
-                                    ['items_id']] =
-                                controller.data[index]['favorite'];
-                            return CustomListItems(
-                                itemsModel: ItemsModel.fromJson(
-                                    controller.data[index]));
-                          })
-                      : ListItemsSearch(listdatamodel: controller.listdata)))
+                  widget: GridView.builder(
+                      shrinkWrap: true,
+                      physics: const NeverScrollableScrollPhysics(),
+                      itemCount: controller.data.length,
+                      gridDelegate:
+                          const SliverGridDelegateWithFixedCrossAxisCount(
+                              crossAxisCount: 2, childAspectRatio: 0.7),
+                      itemBuilder: (BuildContext context, index) {
+                        controllerFav.isFavorite[controller.data[index]
+                            ['items_id']] = controller.data[index]['favorite'];
+                        return CustomListItems(
+                            itemsModel:
+                                ItemsModel.fromJson(controller.data[index]));
+                      })))
         ]),
       ),
     );

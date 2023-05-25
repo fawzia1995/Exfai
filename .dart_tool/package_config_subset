@@ -598,10 +598,6 @@ xml
 2.19
 file:///C:/Users/islam/AppData/Local/Pub/Cache/hosted/pub.dev/xml-6.3.0/
 file:///C:/Users/islam/AppData/Local/Pub/Cache/hosted/pub.dev/xml-6.3.0/lib/
-exfai
-3.0
-file:///C:/Users/islam/Downloads/test/Exfai/
-file:///C:/Users/islam/Downloads/test/Exfai/lib/
 sky_engine
 3.0
 file:///C:/src/flutter/bin/cache/pkg/sky_engine/
@@ -622,4 +618,8 @@ flutter_web_plugins
 3.0
 file:///C:/src/flutter/packages/flutter_web_plugins/
 file:///C:/src/flutter/packages/flutter_web_plugins/lib/
+exfai
+3.0
+file:///E:/Exfai/
+file:///E:/Exfai/lib/
 2

@@ -53,11 +53,12 @@ class HomeControllerImp extends HomeController {
   getdata() async {
     statusRequest = StatusRequest.loading;
     var response = await homedata.getData();
+    print("=============================== Controller $response ");
     statusRequest = handlingData(response);
     if (StatusRequest.success == statusRequest) {
       if (response['status'] == "success") {
-        categories.addAll(response['categories']['data']);
-        items.addAll(response['items']['data']);
+        categories.addAll(response['categories']);
+        items.addAll(response['items']);
       } else {
         statusRequest = StatusRequest.failure;
       }
