@@ -1,12 +1,4 @@
-import 'package:get/get.dart';
-
-import 'package:flutter/material.dart';
-
-import '../core/class/statusrequest.dart';
-import '../core/functions/handingdatacontroller.dart';
-import '../core/services/services.dart';
-import '../data/datasource/remote/cart_data.dart';
-import '../data/model/itemsmodel.dart';
+import '../all_export.dart';
 
 abstract class ProductDetailsController extends GetxController {}
 

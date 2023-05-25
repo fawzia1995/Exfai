@@ -1,8 +1,6 @@
 import 'dart:io';
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 
-import '../constant/color.dart';
+import '../../all_export.dart';
 
 Future<bool> alertExitApp() {
   Get.defaultDialog(

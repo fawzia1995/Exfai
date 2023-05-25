@@ -1,11 +1,4 @@
-import 'package:get/get.dart';
-
-import '../../core/class/statusrequest.dart';
-import '../../core/functions/handingdatacontroller.dart';
-import '../../core/services/services.dart';
-
-import '../../data/datasource/remote/orders/archive_data.dart';
-import '../../data/model/ordersmodel.dart';
+import '../../all_export.dart';
 
 class OrdersArchiveController extends GetxController {
   OrdersArchiveData ordersArchiveData = OrdersArchiveData(Get.find());

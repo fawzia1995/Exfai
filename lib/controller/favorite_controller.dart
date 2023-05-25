@@ -1,13 +1,4 @@
-import 'package:get/get.dart';
-
-import '../../core/class/statusrequest.dart';
-import '../../core/functions/handingdatacontroller.dart';
-
-import '../../core/services/services.dart';
-
-import 'package:flutter/material.dart';
-
-import '../data/datasource/remote/favorite_data.dart';
+import '../all_export.dart';
 
 class FavoriteController extends GetxController {
   FavoriteData favoriteData = FavoriteData(Get.find());

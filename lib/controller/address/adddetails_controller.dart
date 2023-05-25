@@ -1,11 +1,4 @@
-import 'package:flutter/cupertino.dart';
-import 'package:get/get.dart';
-
-import '../../core/class/statusrequest.dart';
-import '../../core/constant/routes.dart';
-import '../../core/functions/handingdatacontroller.dart';
-import '../../core/services/services.dart';
-import '../../data/datasource/remote/address_data.dart';
+import '../../all_export.dart';
 
 class AddAddressDetailsController extends GetxController {
   StatusRequest statusRequest = StatusRequest.none;

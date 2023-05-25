@@ -1,8 +1,4 @@
-import 'package:get/get.dart';
-
-import '../core/constant/routes.dart';
-import '../core/services/services.dart';
-import 'package:firebase_messaging/firebase_messaging.dart';
+import '../all_export.dart';
 
 class SettingsController extends GetxController {
   MyServices myServices = Get.find();

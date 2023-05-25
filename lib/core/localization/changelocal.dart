@@ -1,10 +1,6 @@
-import 'package:flutter/material.dart';
-import 'package:geolocator/geolocator.dart';
-import 'package:get/get.dart';
-
+import '../../all_export.dart';
 import '../constant/apptheme.dart';
 import '../functions/fcmconfig.dart';
-import '../services/services.dart';
 
 class LocaleController extends GetxController {
   Locale? language;

@@ -1,14 +1,4 @@
-import 'package:get/get.dart';
-
-import '../../core/class/statusrequest.dart';
-import '../../core/functions/handingdatacontroller.dart';
-
-import '../../core/services/services.dart';
-
-import '../core/constant/routes.dart';
-import '../data/datasource/remote/address_data.dart';
-import '../data/datasource/remote/checkout_date.dart';
-import '../data/model/addressmodel.dart';
+import '../all_export.dart';
 
 class CheckoutController extends GetxController {
   AddressData addressData = Get.put(AddressData(Get.find()));

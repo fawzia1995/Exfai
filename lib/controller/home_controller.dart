@@ -1,15 +1,4 @@
-import 'package:get/get.dart';
-
-import '../../core/class/statusrequest.dart';
-import '../../core/functions/handingdatacontroller.dart';
-
-import '../../core/services/services.dart';
-
-import '../core/constant/routes.dart';
-import 'package:flutter/cupertino.dart';
-
-import '../data/datasource/remote/home_data.dart';
-import '../data/model/itemsmodel.dart';
+import '../all_export.dart';
 
 abstract class HomeController extends SearchMixController {
   initialData();

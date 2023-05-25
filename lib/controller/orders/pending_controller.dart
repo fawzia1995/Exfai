@@ -1,11 +1,4 @@
-import 'package:get/get.dart';
-
-import '../../core/class/statusrequest.dart';
-import '../../core/functions/handingdatacontroller.dart';
-
-import '../../core/services/services.dart';
-import '../../data/datasource/remote/orders/pending_data.dart';
-import '../../data/model/ordersmodel.dart';
+import '../../all_export.dart';
 
 class OrdersPendingController extends GetxController {
   OrdersPendingData ordersPendingData = OrdersPendingData(Get.find());

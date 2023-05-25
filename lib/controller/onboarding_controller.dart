@@ -1,9 +1,4 @@
-import 'package:flutter/cupertino.dart';
-import 'package:get/get.dart';
-
-import '../core/constant/routes.dart';
-import '../core/services/services.dart';
-import '../data/datasource/static/static.dart';
+import '../all_export.dart';
 
 abstract class OnBoardingController extends GetxController {
   next();

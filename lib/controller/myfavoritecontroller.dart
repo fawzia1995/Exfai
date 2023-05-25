@@ -1,13 +1,4 @@
-import 'package:get/get.dart';
-
-import 'package:flutter/material.dart';
-
-import '../core/class/statusrequest.dart';
-import '../core/functions/handingdatacontroller.dart';
-import '../core/services/services.dart';
-import '../data/datasource/remote/myfavorite_data.dart';
-import '../data/model/myfavorite.dart';
-import 'home_controller.dart';
+import '../all_export.dart';
 
 class MyFavoriteController extends SearchMixController {
   MyFavoriteData favoriteData = MyFavoriteData(Get.find());

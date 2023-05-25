@@ -1,5 +1,4 @@
-import '../../../../core/class/crud.dart';
-import '../../../../linkapi.dart';
+import '../../../all_export.dart';
 
 class FavoriteData {
   Crud crud;

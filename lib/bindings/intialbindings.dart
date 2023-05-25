@@ -1,6 +1,4 @@
-import 'package:get/get.dart';
-
-import '../core/class/crud.dart';
+import '../all_export.dart';
 
 class InitialBindings extends Bindings {
   @override

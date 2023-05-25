@@ -1,10 +1,4 @@
-import 'package:get/get.dart';
-
-import '../../core/class/statusrequest.dart';
-import '../../core/functions/handingdatacontroller.dart';
-import '../../core/services/services.dart';
-import '../../data/datasource/remote/address_data.dart';
-import '../../data/model/addressmodel.dart';
+import '../../all_export.dart';
 
 class AddressViewController extends GetxController {
   AddressData addressData = AddressData(Get.find());

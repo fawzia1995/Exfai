@@ -1,15 +1,4 @@
-import 'package:get/get.dart';
-
-import '../../core/class/statusrequest.dart';
-import '../../core/functions/handingdatacontroller.dart';
-
-import '../../core/services/services.dart';
-import 'package:flutter/material.dart';
-
-import '../core/constant/routes.dart';
-import '../data/datasource/remote/cart_data.dart';
-import '../data/model/cartmodel.dart';
-import '../data/model/couponmodel.dart';
+import '../all_export.dart';
 
 class CartController extends GetxController {
   TextEditingController? controllercoupon;

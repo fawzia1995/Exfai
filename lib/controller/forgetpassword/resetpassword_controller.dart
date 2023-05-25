@@ -1,10 +1,4 @@
-import 'package:flutter/cupertino.dart';
-import 'package:get/get.dart';
-
-import '../../core/class/statusrequest.dart';
-import '../../core/constant/routes.dart';
-import '../../core/functions/handingdatacontroller.dart';
-import '../../data/datasource/remote/forgetpassword/resetpassword.dart';
+import '../../all_export.dart';
 
 abstract class ResetPasswordController extends GetxController {
   resetpassword();

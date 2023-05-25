@@ -1,4 +1,4 @@
-import '../class/statusrequest.dart';
+import '../../all_export.dart';
 
 handlingData(response) {
   if (response is StatusRequest) {

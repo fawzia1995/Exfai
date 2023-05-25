@@ -1,10 +1,4 @@
-import 'package:get/get.dart';
-
-import '../../core/class/statusrequest.dart';
-import '../../core/constant/routes.dart';
-import '../../core/functions/handingdatacontroller.dart';
-
-import '../../data/datasource/remote/forgetpassword/verifycode.dart';
+import '../../all_export.dart';
 
 abstract class VerifyCodeController extends GetxController {
   checkCode();

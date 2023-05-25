@@ -1,4 +1,4 @@
-import 'package:get/get.dart';
+import '../../all_export.dart';
 
 class MyTranslation extends Translations {
   @override

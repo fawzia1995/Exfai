@@ -1,8 +1,6 @@
-import 'package:exfai/core/class/statusrequest.dart';
-import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 
-import '../constant/imgaeasset.dart';
+import '../../all_export.dart';
 
 class HandlingDataView extends StatelessWidget {
   final StatusRequest statusRequest;

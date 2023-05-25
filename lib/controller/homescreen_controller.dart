@@ -1,10 +1,4 @@
-import 'package:get/get.dart';
-
-import 'package:flutter/material.dart';
-
-import '../view/screen/home.dart';
-import '../view/screen/notification.dart';
-import '../view/screen/settings.dart';
+import '../all_export.dart';
 
 abstract class HomeScreenController extends GetxController {
   changePage(int currentpage);

@@ -1,4 +1,4 @@
-import 'package:get/get.dart';
+import '../../all_export.dart';
 
 validInput(String val, int min, int max, String type) {
   if (type == "username") {

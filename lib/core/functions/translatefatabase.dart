@@ -1,6 +1,4 @@
-import 'package:get/get.dart';
-
-import '../services/services.dart';
+import '../../all_export.dart';
 
 translateDatabase(columnar, columnen) {
   MyServices myServices = Get.find();

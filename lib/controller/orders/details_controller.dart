@@ -1,14 +1,4 @@
-import 'dart:async';
-import 'package:get/get.dart';
-
-import '../../core/class/statusrequest.dart';
-import '../../core/functions/handingdatacontroller.dart';
-
-import '../../data/datasource/remote/orders/details_data.dart';
-import '../../data/model/cartmodel.dart';
-import '../../data/model/ordersmodel.dart';
-
-import 'package:google_maps_flutter/google_maps_flutter.dart';
+import '../../all_export.dart';
 
 class OrdersDetailsController extends GetxController {
   OrdersDetailsData ordersDetailsData = OrdersDetailsData(Get.find());

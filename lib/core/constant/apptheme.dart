@@ -1,5 +1,4 @@
-import 'package:exfai/core/constant/color.dart';
-import 'package:flutter/material.dart';
+import '../../all_export.dart';
 
 ThemeData themeEnglish = ThemeData(
   fontFamily: "PlayfairDisplay",
