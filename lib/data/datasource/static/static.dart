@@ -1,6 +1,4 @@
-import 'package:get/get_utils/get_utils.dart';
-
-import '../../../core/constant/imgaeasset.dart';
+import '../../../all_export.dart';
 import '../../model/onboardingmodel.dart';
 
 List<OnBoardingModel> onBoardingList = [
