@@ -14,7 +14,6 @@ class HomeControllerImp extends HomeController {
   String? lang;
 
   @override
-  // ignore: overridden_fields
   HomeData homedata = HomeData(Get.find());
 
   // List data = [];
@@ -46,8 +45,8 @@ class HomeControllerImp extends HomeController {
     statusRequest = handlingData(response);
     if (StatusRequest.success == statusRequest) {
       if (response['status'] == "success") {
-        categories.addAll(response['categories']);
-        items.addAll(response['items']);
+        categories.addAll(response['categories']['data']);
+        items.addAll(response['items']['data']);
       } else {
         statusRequest = StatusRequest.failure;
       }
@@ -78,6 +77,7 @@ class SearchMixController extends GetxController {
   searchData() async {
     statusRequest = StatusRequest.loading;
     var response = await homedata.searchData(search!.text);
+    print("=============================== Controller $response ");
     statusRequest = handlingData(response);
     if (StatusRequest.success == statusRequest) {
       if (response['status'] == "success") {

@@ -1,7 +1,6 @@
 class AppLink {
 //
-
-  static const String server = "https://exfai.com/ecommercecourse91";
+  static const String server = "https://exfai.com/ecommercecourse110";
   static const String test = "$server/test.php";
 
   static const String notification = "$server/notification.php";

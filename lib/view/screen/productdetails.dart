@@ -5,6 +5,8 @@ class ProductDetails extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    ProductDetailsControllerImp controller =
+        Get.put(ProductDetailsControllerImp());
     return Scaffold(
         bottomNavigationBar: Container(
             margin: const EdgeInsets.symmetric(horizontal: 10, vertical: 10),
@@ -22,54 +24,54 @@ class ProductDetails extends StatelessWidget {
                       color: Colors.white, fontWeight: FontWeight.bold),
                 ))),
         body: GetBuilder<ProductDetailsControllerImp>(
-            builder: (controller) => ListView(children: [
+            builder: (controller) => HandlingDataView(
+                statusRequest: controller.statusRequest,
+                widget: ListView(children: [
                   const TopProductPageDetails(),
                   const SizedBox(
                     height: 100,
                   ),
-                  HandlingDataView(
-                      statusRequest: controller.statusRequest,
-                      widget: Container(
-                        padding: const EdgeInsets.all(20),
-                        child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text("${controller.itemsModel.itemsName}",
-                                  style: Theme.of(context)
-                                      .textTheme
-                                      .displayLarge!
-                                      .copyWith(
-                                        color: AppColor.fourthColor,
-                                      )),
-                              const SizedBox(height: 10),
-                              PriceAndCountItems(
-                                  onAdd: () {
-                                    controller.add();
-                                  },
-                                  onRemove: () {
-                                    controller.remove();
-                                  },
-                                  price:
-                                      "${controller.itemsModel.itemsPriceDiscount}",
-                                  count: "${controller.countitems}"),
-                              const SizedBox(height: 10),
-                              Text("${controller.itemsModel.itemsDesc}",
-                                  style: Theme.of(context)
-                                      .textTheme
-                                      .bodyLarge!
-                                      .copyWith(
-                                          fontSize: 16,
-                                          fontWeight: FontWeight.w300,
-                                          color: AppColor.grey2)),
-                              const SizedBox(height: 10),
-                              // Text("Color",
-                              //     style: Theme.of(context).textTheme.headline1!.copyWith(
-                              //           color: AppColor.fourthColor,
-                              //         )),
-                              // const SizedBox(height: 10),
-                              // const SubitemsList()
-                            ]),
-                      ))
-                ])));
+                  Container(
+                    padding: const EdgeInsets.all(20),
+                    child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text("${controller.itemsModel.itemsName}",
+                              style: Theme.of(context)
+                                  .textTheme
+                                  .headline1!
+                                  .copyWith(
+                                    color: AppColor.fourthColor,
+                                  )),
+                          const SizedBox(height: 10),
+                          PriceAndCountItems(
+                              onAdd: () {
+                                controller.add();
+                              },
+                              onRemove: () {
+                                controller.remove();
+                              },
+                              price:
+                                  "${controller.itemsModel.itemsPriceDiscount}",
+                              count: "${controller.countitems}"),
+                          const SizedBox(height: 10),
+                          Text("${controller.itemsModel.itemsDesc}",
+                              style: Theme.of(context)
+                                  .textTheme
+                                  .bodyText1!
+                                  .copyWith(
+                                      fontSize: 16,
+                                      fontWeight: FontWeight.w300,
+                                      color: AppColor.grey2)),
+                          const SizedBox(height: 10),
+                          // Text("Color",
+                          //     style: Theme.of(context).textTheme.headline1!.copyWith(
+                          //           color: AppColor.fourthColor,
+                          //         )),
+                          // const SizedBox(height: 10),
+                          // const SubitemsList()
+                        ]),
+                  )
+                ]))));
   }
 }
