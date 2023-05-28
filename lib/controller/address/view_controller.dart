@@ -21,6 +21,8 @@ class AddressViewController extends GetxController {
     var response = await addressData
         .getData(myServices.sharedPreferences.getString("id")!);
 
+    print("=============================== Controller $response ");
+
     statusRequest = handlingData(response);
 
     if (StatusRequest.success == statusRequest) {

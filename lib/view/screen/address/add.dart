@@ -5,47 +5,52 @@ class AddressAdd extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    AddAddressController controllerpage = Get.put(AddAddressController());
     return Scaffold(
       appBar: AppBar(
         title: const Text('add new address'),
       ),
-      body: GetBuilder<AddAddressController>(
-          builder: ((controllerpage) => HandlingDataView(
-              statusRequest: controllerpage.statusRequest,
-              widget: Column(children: [
-                if (controllerpage.kGooglePlex != null)
-                  Expanded(
-                      child: Stack(
-                    alignment: Alignment.center,
-                    children: [
-                      GoogleMap(
-                        mapType: MapType.normal,
-                        markers: controllerpage.markers.toSet(),
-                        onTap: (latlong) {
-                          controllerpage.addMarkers(latlong);
-                        },
-                        initialCameraPosition: controllerpage.kGooglePlex!,
-                        onMapCreated: (GoogleMapController controllermap) {
-                          controllerpage.completercontroller!
-                              .complete(controllermap);
-                        },
-                      ),
-                      Positioned(
-                        bottom: 10,
-                        child: MaterialButton(
-                          minWidth: 200,
-                          onPressed: () {
-                            controllerpage.goToPageAddDetailsAddress();
+      body: Container(
+        child: GetBuilder<AddAddressController>(
+            builder: ((controllerpage) => HandlingDataView(
+                statusRequest: controllerpage.statusRequest,
+                widget: Column(children: [
+                  if (controllerpage.kGooglePlex != null)
+                    Expanded(
+                        child: Stack(
+                      alignment: Alignment.center,
+                      children: [
+                        GoogleMap(
+                          mapType: MapType.normal,
+                          markers: controllerpage.markers.toSet(),
+                          onTap: (latlong) {
+                            controllerpage.addMarkers(latlong);
                           },
-                          color: AppColor.primaryColor,
-                          textColor: Colors.white,
-                          child: const Text("اكمال",
-                              style: TextStyle(fontSize: 18)),
+                          initialCameraPosition: controllerpage.kGooglePlex!,
+                          onMapCreated: (GoogleMapController controllermap) {
+                            controllerpage.completercontroller!
+                                .complete(controllermap);
+                          },
                         ),
-                      )
-                    ],
-                  ))
-              ])))),
+                        Positioned(
+                          bottom: 10,
+                          child: Container(
+                            child: MaterialButton(
+                              minWidth: 200,
+                              onPressed: () {
+                                controllerpage.goToPageAddDetailsAddress();
+                              },
+                              child:
+                                  Text("اكمال", style: TextStyle(fontSize: 18)),
+                              color: AppColor.primaryColor,
+                              textColor: Colors.white,
+                            ),
+                          ),
+                        )
+                      ],
+                    ))
+                ])))),
+      ),
     );
   }
 }

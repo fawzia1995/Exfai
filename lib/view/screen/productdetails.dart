@@ -5,6 +5,7 @@ class ProductDetails extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // ignore: unused_local_variable
     ProductDetailsControllerImp controller =
         Get.put(ProductDetailsControllerImp());
     return Scaffold(

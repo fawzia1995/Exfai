@@ -5,6 +5,8 @@ class AddressAddDetails extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    AddAddressDetailsController controller =
+        Get.put(AddAddressDetailsController());
     return Scaffold(
       appBar: AppBar(
         title: const Text('add details address'),

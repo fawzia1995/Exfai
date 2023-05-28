@@ -20,6 +20,18 @@
               android:name="io.flutter.embedding.android.NormalTheme"
               android:resource="@style/NormalTheme"
               />
+               <meta-data android:name="com.google.android.geo.API_KEY"
+               android:value="AIzaSyBzk7UVq9oV2sgEBXs7KsIPUVKPIbwttiI"/>
+              <!-- android:value="AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWYAIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY"/> -->
+            <!-- android:value="AIzaSyBzk7UVq9oV2sgEBXs7KsIPUVKPIbwttiI"/> -->
+
+                           <!-- android:value="AIzaSyCfXnfJAD4JnbM5JjF8zRD4HxW_0cc1MLU"/> -->
+        <!-- <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyDrHKl8IxB4cGXIoELXQOzzZwiH1xtsRf4"/> -->
+            <!-- android:value="AIzaSyAERKSFYMxdSR6mrMmgyesmQOr8miAFd4c" /> -->
+
+
+             <!-- <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY"/> -->
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
@@ -31,7 +43,21 @@
             android:name="flutterEmbedding"
             android:value="2" />
     </application>
+         <uses-permission android:name="android.permission.INTERNET"/>
+        <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+        <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+        <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+        <uses-permission android:name="android.permission.CAMERA"/>
+        <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+        <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+        <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+        <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+        <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+        <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+        <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
         <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
         <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
         <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
 </manifest>

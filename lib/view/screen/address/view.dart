@@ -5,6 +5,7 @@ class AddressView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    AddressViewController controller = Get.put(AddressViewController());
     return Scaffold(
         appBar: AppBar(
           title: const Text('address'),
@@ -13,20 +14,22 @@ class AddressView extends StatelessWidget {
             onPressed: () {
               Get.toNamed(AppRoute.addressadd);
             },
-            child: const Icon(Icons.add)),
+            child: Icon(Icons.add)),
         body: GetBuilder<AddressViewController>(
           builder: (controller) => HandlingDataView(
             statusRequest: controller.statusRequest,
-            widget: ListView.builder(
-              itemCount: controller.data.length,
-              itemBuilder: (context, i) {
-                return CardAddress(
-                  addressModel: controller.data[i],
-                  onDelete: () {
-                    controller.deleteAddress(controller.data[i].addressId!);
-                  },
-                );
-              },
+            widget: Container(
+              child: ListView.builder(
+                itemCount: controller.data.length,
+                itemBuilder: (context, i) {
+                  return CardAddress(
+                    addressModel: controller.data[i],
+                    onDelete: () {
+                      controller.deleteAddress(controller.data[i].addressId!);
+                    },
+                  );
+                },
+              ),
             ),
           ),
         ));
@@ -43,13 +46,13 @@ class CardAddress extends StatelessWidget {
   Widget build(BuildContext context) {
     return Card(
       child: Container(
-          padding: const EdgeInsets.all(10),
+          padding: EdgeInsets.all(10),
           child: ListTile(
             title: Text(addressModel.addressName!),
             subtitle: Text(
                 "${addressModel.addressCity!} ${addressModel.addressStreet}"),
             trailing: IconButton(
-                onPressed: onDelete, icon: const Icon(Icons.delete_outline)),
+                onPressed: onDelete, icon: Icon(Icons.delete_outline)),
           )),
     );
   }
