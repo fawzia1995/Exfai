@@ -1,0 +1,17 @@
+com.chavesgu.scan-core-1.6.0-0 C:\Users\islam\.gradle\caches\transforms-3\1141b72fb8be4e566e7814849b1aa3a2\transformed\core-1.6.0\res
+com.chavesgu.scan-jetified-network-common-4.0.20.301-1 C:\Users\islam\.gradle\caches\transforms-3\267f86187e81fc2dcc3b6edf275f8b76\transformed\jetified-network-common-4.0.20.301\res
+com.chavesgu.scan-jetified-window-1.0.0-beta04-2 C:\Users\islam\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\res
+com.chavesgu.scan-jetified-zxing-android-embedded-4.3.0-3 C:\Users\islam\.gradle\caches\transforms-3\4672d25836730679b75344d00501e79e\transformed\jetified-zxing-android-embedded-4.3.0\res
+com.chavesgu.scan-appcompat-1.2.0-4 C:\Users\islam\.gradle\caches\transforms-3\71ce3f81ce856b490a3d378072fab07a\transformed\appcompat-1.2.0\res
+com.chavesgu.scan-jetified-annotation-experimental-1.1.0-5 C:\Users\islam\.gradle\caches\transforms-3\a6362f1fb79a6245a27920bb99ff99c3\transformed\jetified-annotation-experimental-1.1.0\res
+com.chavesgu.scan-jetified-scanplus-2.1.0.300-6 C:\Users\islam\.gradle\caches\transforms-3\dfbfa8a971a925d168a7cc2868e1d540\transformed\jetified-scanplus-2.1.0.300\res
+com.chavesgu.scan-jetified-appcompat-resources-1.2.0-7 C:\Users\islam\.gradle\caches\transforms-3\e5797850f2638c6b905c4c35085e4728\transformed\jetified-appcompat-resources-1.2.0\res
+com.chavesgu.scan-jetified-window-java-1.0.0-beta04-8 C:\Users\islam\.gradle\caches\transforms-3\ed438543a8e9ffa856a2b095c92f0ea3\transformed\jetified-window-java-1.0.0-beta04\res
+com.chavesgu.scan-main-9 C:\Users\islam\AppData\Local\Pub\Cache\hosted\pub.dev\scan-1.6.0\android\src\main\res
+com.chavesgu.scan-release-10 C:\Users\islam\AppData\Local\Pub\Cache\hosted\pub.dev\scan-1.6.0\android\src\release\res
+com.chavesgu.scan-pngs-11 E:\New folder\Exfai\build\scan\generated\res\pngs\release
+com.chavesgu.scan-resValues-12 E:\New folder\Exfai\build\scan\generated\res\resValues\release
+com.chavesgu.scan-rs-13 E:\New folder\Exfai\build\scan\generated\res\rs\release
+com.chavesgu.scan-mergeReleaseResources-14 E:\New folder\Exfai\build\scan\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.chavesgu.scan-mergeReleaseResources-15 E:\New folder\Exfai\build\scan\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.chavesgu.scan-merged_res-16 E:\New folder\Exfai\build\scan\intermediates\merged_res\release

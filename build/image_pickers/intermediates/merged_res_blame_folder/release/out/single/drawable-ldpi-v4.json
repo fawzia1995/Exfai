@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.leeson.image_pickers-merged_res-25:/drawable-ldpi-v4/ucrop_ic_angle.png",
+        "source": "com.leeson.image_pickers-jetified-ucrop-v3.10.9-1:/drawable-ldpi-v4/ucrop_ic_angle.png"
+    },
+    {
+        "merged": "com.leeson.image_pickers-merged_res-25:/drawable-ldpi-v4/ucrop_ic_done.png",
+        "source": "com.leeson.image_pickers-jetified-ucrop-v3.10.9-1:/drawable-ldpi-v4/ucrop_ic_done.png"
+    }
+]

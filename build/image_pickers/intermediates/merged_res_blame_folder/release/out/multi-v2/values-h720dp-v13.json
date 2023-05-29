@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.leeson.image_pickers-merged_res-25:/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\islam\\.gradle\\caches\\transforms-3\\b1784c2c64bc350994f86e65c433b368\\transformed\\appcompat-1.3.1\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.leeson.image_pickers-mergeReleaseResources-23:/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\islam\\.gradle\\caches\\transforms-3\\b1784c2c64bc350994f86e65c433b368\\transformed\\appcompat-1.3.1\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}

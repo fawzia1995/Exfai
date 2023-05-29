@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.chavesgu.scan-mergeReleaseResources-13:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\islam\\.gradle\\caches\\transforms-3\\71ce3f81ce856b490a3d378072fab07a\\transformed\\appcompat-1.2.0\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.chavesgu.scan-merged_res-15:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\islam\\.gradle\\caches\\transforms-3\\71ce3f81ce856b490a3d378072fab07a\\transformed\\appcompat-1.2.0\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.leeson.image_pickers-merged_res-25:/xml/net_sec.xml",
+        "source": "com.leeson.image_pickers-main-19:/xml/net_sec.xml"
+    },
+    {
+        "merged": "com.leeson.image_pickers-merged_res-25:/xml/pickers_plugin_file_path.xml",
+        "source": "com.leeson.image_pickers-main-19:/xml/pickers_plugin_file_path.xml"
+    },
+    {
+        "merged": "com.leeson.image_pickers-merged_res-25:/xml/ps_file_paths.xml",
+        "source": "com.leeson.image_pickers-jetified-pictureselector-v3.10.9-0:/xml/ps_file_paths.xml"
+    }
+]
