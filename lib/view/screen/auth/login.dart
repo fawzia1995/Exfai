@@ -11,11 +11,31 @@ class Login extends StatelessWidget {
         centerTitle: true,
         backgroundColor: AppColor.backgroundcolor,
         elevation: 0.0,
-        title: Text('Sign In',
-            style: Theme.of(context)
-                .textTheme
-                .headline1!
-                .copyWith(color: AppColor.grey)),
+        title: Row(
+          mainAxisAlignment: MainAxisAlignment.end,
+          children: [
+            Text(
+              'Sign In',
+              style: Theme.of(context)
+                  .textTheme
+                  .displayLarge!
+                  .copyWith(color: AppColor.grey),
+            ),
+            const SizedBox(width: 80),
+            InkWell(
+              onTap: () {
+                Get.toNamed('/homepage');
+              },
+              child: Text(
+                'Skip',
+                style: Theme.of(context)
+                    .textTheme
+                    .displayLarge!
+                    .copyWith(color: Colors.blue),
+              ),
+            ),
+          ],
+        ),
       ),
       body: WillPopScope(
           onWillPop: alertExitApp,

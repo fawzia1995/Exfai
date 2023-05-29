@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_unnecessary_containers
+
 import '../../all_export.dart';
 
 class Settings extends StatelessWidget {
