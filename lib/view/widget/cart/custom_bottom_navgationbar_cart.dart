@@ -21,7 +21,8 @@ class BottomNavgationBarCart extends GetView<CartController> {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
+    return Container(
+        child: Column(
       mainAxisSize: MainAxisSize.min,
       children: [
         GetBuilder<CartController>(
@@ -48,12 +49,13 @@ class BottomNavgationBarCart extends GetView<CartController> {
                             onPressed: onApplyCoupon,
                           ))
                     ]))
-                : Text(
+                : Container(
+                    child: Text(
                     "Coupon Code ${controller.couponname!}",
                     style: TextStyle(
                         color: AppColor.primaryColor,
                         fontWeight: FontWeight.bold),
-                  )),
+                  ))),
         Container(
           margin: EdgeInsets.all(10),
           padding: EdgeInsets.all(10),
@@ -124,6 +126,6 @@ class BottomNavgationBarCart extends GetView<CartController> {
           },
         )
       ],
-    );
+    ));
   }
 }

@@ -1,4 +1,6 @@
-import '../all_export.dart';
+// ignore_for_file: avoid_renaming_method_parameters
+
+import '../../all_export.dart';
 
 abstract class HomeScreenController extends GetxController {
   changePage(int currentpage);
@@ -25,7 +27,6 @@ class HomeScreenControllerImp extends HomeScreenController {
   ];
 
   @override
-  // ignore: avoid_renaming_method_parameters
   changePage(int i) {
     currentpage = i;
     update();

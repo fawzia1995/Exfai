@@ -1,0 +1,783 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.exfai.exfai"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->E:\New folder\Exfai\android\app\src\main\AndroidManifest.xml:46:10-71
+15-->E:\New folder\Exfai\android\app\src\main\AndroidManifest.xml:46:27-69
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->E:\New folder\Exfai\android\app\src\main\AndroidManifest.xml:47:9-82
+16-->E:\New folder\Exfai\android\app\src\main\AndroidManifest.xml:47:26-80
+17    <uses-permission
+17-->E:\New folder\Exfai\android\app\src\main\AndroidManifest.xml:48:9-84
+18        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+18-->E:\New folder\Exfai\android\app\src\main\AndroidManifest.xml:48:26-82
+19        android:maxSdkVersion="32" />
+19-->[:image_pickers] E:\New folder\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-35
+20    <uses-permission
+20-->E:\New folder\Exfai\android\app\src\main\AndroidManifest.xml:49:9-83
+21        android:name="android.permission.READ_EXTERNAL_STORAGE"
+21-->E:\New folder\Exfai\android\app\src\main\AndroidManifest.xml:49:26-81
+22        android:maxSdkVersion="32" />
+22-->[:image_pickers] E:\New folder\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-35
+23    <uses-permission android:name="android.permission.CAMERA" />
+23-->E:\New folder\Exfai\android\app\src\main\AndroidManifest.xml:50:9-68
+23-->E:\New folder\Exfai\android\app\src\main\AndroidManifest.xml:50:26-66
+24    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+24-->E:\New folder\Exfai\android\app\src\main\AndroidManifest.xml:51:9-74
+24-->E:\New folder\Exfai\android\app\src\main\AndroidManifest.xml:51:26-72
+25    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+25-->E:\New folder\Exfai\android\app\src\main\AndroidManifest.xml:52:9-83
+25-->E:\New folder\Exfai\android\app\src\main\AndroidManifest.xml:52:26-81
+26    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+26-->E:\New folder\Exfai\android\app\src\main\AndroidManifest.xml:53:9-78
+26-->E:\New folder\Exfai\android\app\src\main\AndroidManifest.xml:53:26-76
+27    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+27-->E:\New folder\Exfai\android\app\src\main\AndroidManifest.xml:54:9-79
+27-->E:\New folder\Exfai\android\app\src\main\AndroidManifest.xml:54:26-77
+28    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+28-->E:\New folder\Exfai\android\app\src\main\AndroidManifest.xml:55:9-79
+28-->E:\New folder\Exfai\android\app\src\main\AndroidManifest.xml:55:26-77
+29    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+29-->E:\New folder\Exfai\android\app\src\main\AndroidManifest.xml:56:9-84
+29-->E:\New folder\Exfai\android\app\src\main\AndroidManifest.xml:56:26-82
+30    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+30-->E:\New folder\Exfai\android\app\src\main\AndroidManifest.xml:57:9-82
+30-->E:\New folder\Exfai\android\app\src\main\AndroidManifest.xml:57:26-80
+31    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+31-->E:\New folder\Exfai\android\app\src\main\AndroidManifest.xml:57:9-82
+31-->E:\New folder\Exfai\android\app\src\main\AndroidManifest.xml:57:26-80
+32    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+32-->E:\New folder\Exfai\android\app\src\main\AndroidManifest.xml:56:9-84
+32-->E:\New folder\Exfai\android\app\src\main\AndroidManifest.xml:56:26-82
+33    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+33-->E:\New folder\Exfai\android\app\src\main\AndroidManifest.xml:62:9-89
+33-->E:\New folder\Exfai\android\app\src\main\AndroidManifest.xml:62:26-86
+34    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Permissions options for the `notification` group -->
+34-->[:firebase_messaging] E:\New folder\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-68
+34-->[:firebase_messaging] E:\New folder\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-65
+35    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+35-->[:firebase_messaging] E:\New folder\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-77
+35-->[:firebase_messaging] E:\New folder\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:13:22-74
+36    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+36-->[:geolocator_android] E:\New folder\Exfai\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-77
+36-->[:geolocator_android] E:\New folder\Exfai\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-74
+37    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+37-->[:flutter_local_notifications] E:\New folder\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-81
+37-->[:flutter_local_notifications] E:\New folder\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-78
+38    <uses-permission android:name="android.permission.VIBRATE" />
+38-->[:flutter_local_notifications] E:\New folder\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-66
+38-->[:flutter_local_notifications] E:\New folder\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-63
+39    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+39-->[:flutter_local_notifications] E:\New folder\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-81
+39-->[:flutter_local_notifications] E:\New folder\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-78
+40    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+40-->[:flutter_local_notifications] E:\New folder\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-79
+40-->[:flutter_local_notifications] E:\New folder\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:12:22-76
+41    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+41-->[:image_pickers] E:\New folder\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:18:5-76
+41-->[:image_pickers] E:\New folder\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:18:22-73
+42    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+42-->[:image_pickers] E:\New folder\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:19:5-75
+42-->[:image_pickers] E:\New folder\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:19:22-72
+43
+44    <queries package="com.exfai.exfai" >
+44-->[:image_pickers] E:\New folder\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:22:5-31:15
+44-->[:image_pickers] E:\New folder\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:22:14-40
+45        <intent>
+45-->[:image_pickers] E:\New folder\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:23:9-26:18
+46            <action android:name="android.media.action.IMAGE_CAPTURE" >
+46-->[:image_pickers] E:\New folder\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-25:22
+46-->[:image_pickers] E:\New folder\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:24:21-70
+47            </action>
+48        </intent>
+49        <intent>
+49-->[:image_pickers] E:\New folder\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:27:9-30:18
+50            <action android:name="android.media.action.ACTION_VIDEO_CAPTURE" >
+50-->[:image_pickers] E:\New folder\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-29:22
+50-->[:image_pickers] E:\New folder\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:28:21-77
+51            </action>
+52        </intent>
+53        <!-- Needs to be explicitly declared on Android R+ -->
+54        <package android:name="com.google.android.apps.maps" />
+54-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\islam\.gradle\caches\transforms-3\e0b2331bb61c92c100bbb1be09504fde\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
+54-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\islam\.gradle\caches\transforms-3\e0b2331bb61c92c100bbb1be09504fde\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
+55    </queries>
+56
+57    <uses-feature
+57-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\islam\.gradle\caches\transforms-3\e0b2331bb61c92c100bbb1be09504fde\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
+58        android:glEsVersion="0x00020000"
+58-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\islam\.gradle\caches\transforms-3\e0b2331bb61c92c100bbb1be09504fde\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
+59        android:required="true" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+59-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\islam\.gradle\caches\transforms-3\e0b2331bb61c92c100bbb1be09504fde\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
+60    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+60-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\islam\.gradle\caches\transforms-3\0096cd9996f4d8d4c58a27f987b42c49\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:28:5-82
+60-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\islam\.gradle\caches\transforms-3\0096cd9996f4d8d4c58a27f987b42c49\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:28:22-79
+61
+62    <permission
+62-->[androidx.core:core:1.9.0] C:\Users\islam\.gradle\caches\transforms-3\9008b2a9fb01102d26fd2f78c055a96b\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+63        android:name="com.exfai.exfai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+63-->[androidx.core:core:1.9.0] C:\Users\islam\.gradle\caches\transforms-3\9008b2a9fb01102d26fd2f78c055a96b\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+64        android:protectionLevel="signature" />
+64-->[androidx.core:core:1.9.0] C:\Users\islam\.gradle\caches\transforms-3\9008b2a9fb01102d26fd2f78c055a96b\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+65
+66    <uses-permission android:name="com.exfai.exfai.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+66-->[androidx.core:core:1.9.0] C:\Users\islam\.gradle\caches\transforms-3\9008b2a9fb01102d26fd2f78c055a96b\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+66-->[androidx.core:core:1.9.0] C:\Users\islam\.gradle\caches\transforms-3\9008b2a9fb01102d26fd2f78c055a96b\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+67    <uses-feature
+67-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\islam\.gradle\caches\transforms-3\4672d25836730679b75344d00501e79e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:25:5-27:36
+68        android:name="android.hardware.camera"
+68-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\islam\.gradle\caches\transforms-3\4672d25836730679b75344d00501e79e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:26:9-47
+69        android:required="false" />
+69-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\islam\.gradle\caches\transforms-3\4672d25836730679b75344d00501e79e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:27:9-33
+70    <uses-feature
+70-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\islam\.gradle\caches\transforms-3\4672d25836730679b75344d00501e79e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:28:5-30:36
+71        android:name="android.hardware.camera.front"
+71-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\islam\.gradle\caches\transforms-3\4672d25836730679b75344d00501e79e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:29:9-53
+72        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+72-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\islam\.gradle\caches\transforms-3\4672d25836730679b75344d00501e79e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:30:9-33
+73    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+74    <uses-feature
+74-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\islam\.gradle\caches\transforms-3\4672d25836730679b75344d00501e79e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:33:5-35:36
+75        android:name="android.hardware.camera.autofocus"
+75-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\islam\.gradle\caches\transforms-3\4672d25836730679b75344d00501e79e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:34:9-57
+76        android:required="false" />
+76-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\islam\.gradle\caches\transforms-3\4672d25836730679b75344d00501e79e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:35:9-33
+77    <uses-feature
+77-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\islam\.gradle\caches\transforms-3\4672d25836730679b75344d00501e79e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:36:5-38:36
+78        android:name="android.hardware.camera.flash"
+78-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\islam\.gradle\caches\transforms-3\4672d25836730679b75344d00501e79e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:37:9-53
+79        android:required="false" />
+79-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\islam\.gradle\caches\transforms-3\4672d25836730679b75344d00501e79e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:38:9-33
+80    <uses-feature
+80-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\islam\.gradle\caches\transforms-3\4672d25836730679b75344d00501e79e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:39:5-41:36
+81        android:name="android.hardware.screen.landscape"
+81-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\islam\.gradle\caches\transforms-3\4672d25836730679b75344d00501e79e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:40:9-57
+82        android:required="false" />
+82-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\islam\.gradle\caches\transforms-3\4672d25836730679b75344d00501e79e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:41:9-33
+83    <uses-feature
+83-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\islam\.gradle\caches\transforms-3\4672d25836730679b75344d00501e79e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:42:5-44:36
+84        android:name="android.hardware.wifi"
+84-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\islam\.gradle\caches\transforms-3\4672d25836730679b75344d00501e79e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:43:9-45
+85        android:required="false" />
+85-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\islam\.gradle\caches\transforms-3\4672d25836730679b75344d00501e79e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:44:9-33
+86
+87    <application
+88        android:name="android.app.Application"
+89        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+89-->[androidx.core:core:1.9.0] C:\Users\islam\.gradle\caches\transforms-3\9008b2a9fb01102d26fd2f78c055a96b\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+90        android:debuggable="true"
+91        android:icon="@mipmap/ic_launcher"
+92        android:label="Exfai"
+93        android:networkSecurityConfig="@xml/net_sec"
+93-->[:image_pickers] E:\New folder\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:34:9-53
+94        android:requestLegacyExternalStorage="true" >
+94-->[:image_pickers] E:\New folder\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:35:9-52
+95        <activity
+96            android:name="com.exfai.exfai.MainActivity"
+97            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+98            android:exported="true"
+99            android:hardwareAccelerated="true"
+100            android:launchMode="singleTop"
+101            android:theme="@style/LaunchTheme"
+102            android:windowSoftInputMode="adjustResize" >
+103
+104            <!--
+105                 Specifies an Android theme to apply to this Activity as soon as
+106                 the Android process has started. This theme is visible to the user
+107                 while the Flutter UI initializes. After that, this theme continues
+108                 to determine the Window background behind the Flutter UI.
+109            -->
+110            <meta-data
+111                android:name="io.flutter.embedding.android.NormalTheme"
+112                android:resource="@style/NormalTheme" />
+113            <meta-data
+114                android:name="com.google.android.geo.API_KEY"
+115                android:value="AIzaSyBzk7UVq9oV2sgEBXs7KsIPUVKPIbwttiI" />
+116            <!-- android:value="AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWYAIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY"/> -->
+117            <!-- android:value="AIzaSyBzk7UVq9oV2sgEBXs7KsIPUVKPIbwttiI"/> -->
+118
+119
+120            <!-- android:value="AIzaSyCfXnfJAD4JnbM5JjF8zRD4HxW_0cc1MLU"/> -->
+121            <!-- <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyDrHKl8IxB4cGXIoELXQOzzZwiH1xtsRf4"/> -->
+122            <!-- android:value="AIzaSyAERKSFYMxdSR6mrMmgyesmQOr8miAFd4c" /> -->
+123
+124
+125            <!-- <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY"/> -->
+126
+127            <intent-filter>
+128                <action android:name="android.intent.action.MAIN" />
+129
+130                <category android:name="android.intent.category.LAUNCHER" />
+131            </intent-filter>
+132        </activity>
+133        <!--
+134             Don't delete the meta-data below.
+135             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+136        -->
+137        <meta-data
+138            android:name="flutterEmbedding"
+139            android:value="2" />
+140
+141        <service
+141-->[:cloud_firestore] E:\New folder\Exfai\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
+142            android:name="com.google.firebase.components.ComponentDiscoveryService"
+142-->[:cloud_firestore] E:\New folder\Exfai\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-89
+143            android:directBootAware="true"
+143-->[com.google.firebase:firebase-common:20.3.2] C:\Users\islam\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:34:13-43
+144            android:exported="false" >
+144-->[com.google.firebase:firebase-firestore:24.6.0] C:\Users\islam\.gradle\caches\transforms-3\ec3138adb9fecd309911a980fe7066c1\transformed\jetified-firebase-firestore-24.6.0\AndroidManifest.xml:18:13-37
+145            <meta-data
+145-->[:cloud_firestore] E:\New folder\Exfai\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+146                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+146-->[:cloud_firestore] E:\New folder\Exfai\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-134
+147                android:value="com.google.firebase.components.ComponentRegistrar" />
+147-->[:cloud_firestore] E:\New folder\Exfai\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+148            <meta-data
+148-->[:firebase_messaging] E:\New folder\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-40:85
+149                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+149-->[:firebase_messaging] E:\New folder\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:39:17-128
+150                android:value="com.google.firebase.components.ComponentRegistrar" />
+150-->[:firebase_messaging] E:\New folder\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:40:17-82
+151            <meta-data
+151-->[:firebase_core] E:\New folder\Exfai\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+152                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+152-->[:firebase_core] E:\New folder\Exfai\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+153                android:value="com.google.firebase.components.ComponentRegistrar" />
+153-->[:firebase_core] E:\New folder\Exfai\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+154            <meta-data
+154-->[com.google.firebase:firebase-firestore:24.6.0] C:\Users\islam\.gradle\caches\transforms-3\ec3138adb9fecd309911a980fe7066c1\transformed\jetified-firebase-firestore-24.6.0\AndroidManifest.xml:19:13-21:85
+155                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+155-->[com.google.firebase:firebase-firestore:24.6.0] C:\Users\islam\.gradle\caches\transforms-3\ec3138adb9fecd309911a980fe7066c1\transformed\jetified-firebase-firestore-24.6.0\AndroidManifest.xml:20:17-111
+156                android:value="com.google.firebase.components.ComponentRegistrar" />
+156-->[com.google.firebase:firebase-firestore:24.6.0] C:\Users\islam\.gradle\caches\transforms-3\ec3138adb9fecd309911a980fe7066c1\transformed\jetified-firebase-firestore-24.6.0\AndroidManifest.xml:21:17-82
+157            <meta-data
+157-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\islam\.gradle\caches\transforms-3\0096cd9996f4d8d4c58a27f987b42c49\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:55:13-57:85
+158                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+158-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\islam\.gradle\caches\transforms-3\0096cd9996f4d8d4c58a27f987b42c49\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:56:17-119
+159                android:value="com.google.firebase.components.ComponentRegistrar" />
+159-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\islam\.gradle\caches\transforms-3\0096cd9996f4d8d4c58a27f987b42c49\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:57:17-82
+160            <meta-data
+160-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\islam\.gradle\caches\transforms-3\39d9b5c48419e0c94f5aa1b980350a6f\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:32:13-34:85
+161                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+161-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\islam\.gradle\caches\transforms-3\39d9b5c48419e0c94f5aa1b980350a6f\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:33:17-96
+162                android:value="com.google.firebase.components.ComponentRegistrar" />
+162-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\islam\.gradle\caches\transforms-3\39d9b5c48419e0c94f5aa1b980350a6f\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:34:17-82
+163            <meta-data
+163-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\islam\.gradle\caches\transforms-3\c6892a04519549dabf7974bc7e92594e\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:17:13-19:85
+164                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+164-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\islam\.gradle\caches\transforms-3\c6892a04519549dabf7974bc7e92594e\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:18:17-127
+165                android:value="com.google.firebase.components.ComponentRegistrar" />
+165-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\islam\.gradle\caches\transforms-3\c6892a04519549dabf7974bc7e92594e\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:19:17-82
+166            <meta-data
+166-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\islam\.gradle\caches\transforms-3\41dfe98397e4b9f5ee875d10e366947c\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
+167                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+167-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\islam\.gradle\caches\transforms-3\41dfe98397e4b9f5ee875d10e366947c\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
+168                android:value="com.google.firebase.components.ComponentRegistrar" />
+168-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\islam\.gradle\caches\transforms-3\41dfe98397e4b9f5ee875d10e366947c\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
+169        </service>
+170        <service
+170-->[:firebase_messaging] E:\New folder\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-19:72
+171            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+171-->[:firebase_messaging] E:\New folder\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-107
+172            android:exported="false"
+172-->[:firebase_messaging] E:\New folder\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
+173            android:permission="android.permission.BIND_JOB_SERVICE" />
+173-->[:firebase_messaging] E:\New folder\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-69
+174        <service
+174-->[:firebase_messaging] E:\New folder\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:20:9-26:19
+175            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+175-->[:firebase_messaging] E:\New folder\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-97
+176            android:exported="false" >
+176-->[:firebase_messaging] E:\New folder\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-37
+177            <intent-filter>
+177-->[:firebase_messaging] E:\New folder\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-25:29
+178                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+178-->[:firebase_messaging] E:\New folder\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:17-78
+178-->[:firebase_messaging] E:\New folder\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:25-75
+179            </intent-filter>
+180        </service>
+181
+182        <receiver
+182-->[:firebase_messaging] E:\New folder\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:28:9-35:20
+183            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+183-->[:firebase_messaging] E:\New folder\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-98
+184            android:exported="true"
+184-->[:firebase_messaging] E:\New folder\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-36
+185            android:permission="com.google.android.c2dm.permission.SEND" >
+185-->[:firebase_messaging] E:\New folder\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-73
+186            <intent-filter>
+186-->[:firebase_messaging] E:\New folder\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-34:29
+187                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+187-->[:firebase_messaging] E:\New folder\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:17-81
+187-->[:firebase_messaging] E:\New folder\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:25-78
+188            </intent-filter>
+189        </receiver>
+190
+191        <provider
+191-->[:firebase_messaging] E:\New folder\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:43:9-47:38
+192            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+192-->[:firebase_messaging] E:\New folder\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:44:13-102
+193            android:authorities="com.exfai.exfai.flutterfirebasemessaginginitprovider"
+193-->[:firebase_messaging] E:\New folder\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:45:13-88
+194            android:exported="false"
+194-->[:firebase_messaging] E:\New folder\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-37
+195            android:initOrder="99" />
+195-->[:firebase_messaging] E:\New folder\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:47:13-35
+196
+197        <service
+197-->[:geolocator_android] E:\New folder\Exfai\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-16:56
+198            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+198-->[:geolocator_android] E:\New folder\Exfai\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-77
+199            android:enabled="true"
+199-->[:geolocator_android] E:\New folder\Exfai\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-35
+200            android:exported="false"
+200-->[:geolocator_android] E:\New folder\Exfai\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-37
+201            android:foregroundServiceType="location" />
+201-->[:geolocator_android] E:\New folder\Exfai\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-53
+202
+203        <provider
+203-->[:image_picker_android] E:\New folder\Exfai\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+204            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+204-->[:image_picker_android] E:\New folder\Exfai\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-82
+205            android:authorities="com.exfai.exfai.flutter.image_provider"
+205-->[:image_picker_android] E:\New folder\Exfai\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-74
+206            android:exported="false"
+206-->[:image_picker_android] E:\New folder\Exfai\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+207            android:grantUriPermissions="true" >
+207-->[:image_picker_android] E:\New folder\Exfai\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+208            <meta-data
+208-->[:image_picker_android] E:\New folder\Exfai\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:75
+209                android:name="android.support.FILE_PROVIDER_PATHS"
+209-->[:image_picker_android] E:\New folder\Exfai\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+210                android:resource="@xml/flutter_image_picker_file_paths" />
+210-->[:image_picker_android] E:\New folder\Exfai\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-72
+211        </provider>
+212
+213        <receiver
+213-->[:flutter_local_notifications] E:\New folder\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-18:40
+214            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
+214-->[:flutter_local_notifications] E:\New folder\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-91
+215            android:exported="false" />
+215-->[:flutter_local_notifications] E:\New folder\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
+216        <receiver
+216-->[:flutter_local_notifications] E:\New folder\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:19:9-21:40
+217            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+217-->[:flutter_local_notifications] E:\New folder\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-97
+218            android:exported="false" />
+218-->[:flutter_local_notifications] E:\New folder\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-37
+219        <receiver
+219-->[:flutter_local_notifications] E:\New folder\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:22:9-31:20
+220            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+220-->[:flutter_local_notifications] E:\New folder\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-101
+221            android:exported="false" >
+221-->[:flutter_local_notifications] E:\New folder\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-37
+222            <intent-filter>
+222-->[:flutter_local_notifications] E:\New folder\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:25:13-30:29
+223                <action android:name="android.intent.action.BOOT_COMPLETED" />
+223-->[:flutter_local_notifications] E:\New folder\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:26:17-79
+223-->[:flutter_local_notifications] E:\New folder\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:26:25-76
+224                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+224-->[:flutter_local_notifications] E:\New folder\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:27:17-84
+224-->[:flutter_local_notifications] E:\New folder\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:27:25-81
+225                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+225-->[:flutter_local_notifications] E:\New folder\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:28:17-82
+225-->[:flutter_local_notifications] E:\New folder\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:28:25-79
+226                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+226-->[:flutter_local_notifications] E:\New folder\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:17-82
+226-->[:flutter_local_notifications] E:\New folder\Exfai\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:29:25-79
+227            </intent-filter>
+228        </receiver>
+229
+230        <activity
+230-->[:url_launcher_android] E:\New folder\Exfai\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:74
+231            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+231-->[:url_launcher_android] E:\New folder\Exfai\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
+232            android:exported="false"
+232-->[:url_launcher_android] E:\New folder\Exfai\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+233            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" /> <!-- 适配9.0的系统 -->
+233-->[:url_launcher_android] E:\New folder\Exfai\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
+234        <uses-library
+234-->[:image_pickers] E:\New folder\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:38:9-40:40
+235            android:name="org.apache.http.legacy"
+235-->[:image_pickers] E:\New folder\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:39:13-50
+236            android:required="false" /> <!-- 适配9.0的系统 -->
+236-->[:image_pickers] E:\New folder\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:40:13-37
+237        <activity
+237-->[:image_pickers] E:\New folder\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:42:9-44:49
+238            android:name="com.leeson.image_pickers.activitys.PermissionActivity"
+238-->[:image_pickers] E:\New folder\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:43:13-81
+239            android:theme="@style/TransTheme" />
+239-->[:image_pickers] E:\New folder\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:44:13-46
+240        <activity
+240-->[:image_pickers] E:\New folder\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:45:9-47:49
+241            android:name="com.leeson.image_pickers.activitys.SelectPicsActivity"
+241-->[:image_pickers] E:\New folder\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-81
+242            android:theme="@style/TransTheme" />
+242-->[:image_pickers] E:\New folder\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:47:13-46
+243        <activity
+243-->[:image_pickers] E:\New folder\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:48:9-51:47
+244            android:name="com.leeson.image_pickers.activitys.PhotosActivity"
+244-->[:image_pickers] E:\New folder\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:49:13-77
+245            android:configChanges="orientation|screenSize"
+245-->[:image_pickers] E:\New folder\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:50:13-59
+246            android:theme="@style/AppTheme" />
+246-->[:image_pickers] E:\New folder\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:51:13-44
+247        <activity
+247-->[:image_pickers] E:\New folder\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:52:9-55:47
+248            android:name="com.leeson.image_pickers.activitys.VideoActivity"
+248-->[:image_pickers] E:\New folder\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:53:13-76
+249            android:configChanges="orientation|screenSize"
+249-->[:image_pickers] E:\New folder\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:54:13-59
+250            android:theme="@style/AppTheme" />
+250-->[:image_pickers] E:\New folder\Exfai\build\image_pickers\intermediates\merged_manifest\debug\AndroidManifest.xml:55:13-44
+251
+252        <provider
+252-->[io.github.lucksiege:pictureselector:v3.10.9] C:\Users\islam\.gradle\caches\transforms-3\00c4fe66bb153ddf420be989bdbcc8a3\transformed\jetified-pictureselector-v3.10.9\AndroidManifest.xml:10:9-18:20
+253            android:name="com.luck.picture.lib.basic.PictureFileProvider"
+253-->[io.github.lucksiege:pictureselector:v3.10.9] C:\Users\islam\.gradle\caches\transforms-3\00c4fe66bb153ddf420be989bdbcc8a3\transformed\jetified-pictureselector-v3.10.9\AndroidManifest.xml:11:13-74
+254            android:authorities="com.exfai.exfai.luckProvider"
+254-->[io.github.lucksiege:pictureselector:v3.10.9] C:\Users\islam\.gradle\caches\transforms-3\00c4fe66bb153ddf420be989bdbcc8a3\transformed\jetified-pictureselector-v3.10.9\AndroidManifest.xml:12:13-64
+255            android:exported="false"
+255-->[io.github.lucksiege:pictureselector:v3.10.9] C:\Users\islam\.gradle\caches\transforms-3\00c4fe66bb153ddf420be989bdbcc8a3\transformed\jetified-pictureselector-v3.10.9\AndroidManifest.xml:13:13-37
+256            android:grantUriPermissions="true" >
+256-->[io.github.lucksiege:pictureselector:v3.10.9] C:\Users\islam\.gradle\caches\transforms-3\00c4fe66bb153ddf420be989bdbcc8a3\transformed\jetified-pictureselector-v3.10.9\AndroidManifest.xml:14:13-47
+257            <meta-data
+257-->[:image_picker_android] E:\New folder\Exfai\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:75
+258                android:name="android.support.FILE_PROVIDER_PATHS"
+258-->[:image_picker_android] E:\New folder\Exfai\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+259                android:resource="@xml/ps_file_paths" />
+259-->[:image_picker_android] E:\New folder\Exfai\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-72
+260        </provider>
+261
+262        <service
+262-->[io.github.lucksiege:pictureselector:v3.10.9] C:\Users\islam\.gradle\caches\transforms-3\00c4fe66bb153ddf420be989bdbcc8a3\transformed\jetified-pictureselector-v3.10.9\AndroidManifest.xml:20:9-23:56
+263            android:name="com.luck.picture.lib.service.ForegroundService"
+263-->[io.github.lucksiege:pictureselector:v3.10.9] C:\Users\islam\.gradle\caches\transforms-3\00c4fe66bb153ddf420be989bdbcc8a3\transformed\jetified-pictureselector-v3.10.9\AndroidManifest.xml:21:13-74
+264            android:enabled="true"
+264-->[io.github.lucksiege:pictureselector:v3.10.9] C:\Users\islam\.gradle\caches\transforms-3\00c4fe66bb153ddf420be989bdbcc8a3\transformed\jetified-pictureselector-v3.10.9\AndroidManifest.xml:22:13-35
+265            android:foregroundServiceType="location" />
+265-->[io.github.lucksiege:pictureselector:v3.10.9] C:\Users\islam\.gradle\caches\transforms-3\00c4fe66bb153ddf420be989bdbcc8a3\transformed\jetified-pictureselector-v3.10.9\AndroidManifest.xml:23:13-53
+266
+267        <activity
+267-->[io.github.lucksiege:pictureselector:v3.10.9] C:\Users\islam\.gradle\caches\transforms-3\00c4fe66bb153ddf420be989bdbcc8a3\transformed\jetified-pictureselector-v3.10.9\AndroidManifest.xml:25:9-29:20
+268            android:name="com.luck.picture.lib.basic.PictureSelectorSupporterActivity"
+268-->[io.github.lucksiege:pictureselector:v3.10.9] C:\Users\islam\.gradle\caches\transforms-3\00c4fe66bb153ddf420be989bdbcc8a3\transformed\jetified-pictureselector-v3.10.9\AndroidManifest.xml:26:13-87
+269            android:configChanges="orientation|keyboardHidden|screenSize"
+269-->[io.github.lucksiege:pictureselector:v3.10.9] C:\Users\islam\.gradle\caches\transforms-3\00c4fe66bb153ddf420be989bdbcc8a3\transformed\jetified-pictureselector-v3.10.9\AndroidManifest.xml:27:13-74
+270            android:theme="@style/Base.Theme.NoActionBar" >
+270-->[io.github.lucksiege:pictureselector:v3.10.9] C:\Users\islam\.gradle\caches\transforms-3\00c4fe66bb153ddf420be989bdbcc8a3\transformed\jetified-pictureselector-v3.10.9\AndroidManifest.xml:28:13-58
+271        </activity>
+272        <activity
+272-->[io.github.lucksiege:pictureselector:v3.10.9] C:\Users\islam\.gradle\caches\transforms-3\00c4fe66bb153ddf420be989bdbcc8a3\transformed\jetified-pictureselector-v3.10.9\AndroidManifest.xml:30:9-34:20
+273            android:name="com.luck.picture.lib.basic.PictureSelectorTransparentActivity"
+273-->[io.github.lucksiege:pictureselector:v3.10.9] C:\Users\islam\.gradle\caches\transforms-3\00c4fe66bb153ddf420be989bdbcc8a3\transformed\jetified-pictureselector-v3.10.9\AndroidManifest.xml:31:13-89
+274            android:configChanges="orientation|keyboardHidden|screenSize"
+274-->[io.github.lucksiege:pictureselector:v3.10.9] C:\Users\islam\.gradle\caches\transforms-3\00c4fe66bb153ddf420be989bdbcc8a3\transformed\jetified-pictureselector-v3.10.9\AndroidManifest.xml:32:13-74
+275            android:theme="@style/Picture.Theme.Translucent" >
+275-->[io.github.lucksiege:pictureselector:v3.10.9] C:\Users\islam\.gradle\caches\transforms-3\00c4fe66bb153ddf420be989bdbcc8a3\transformed\jetified-pictureselector-v3.10.9\AndroidManifest.xml:33:13-61
+276        </activity>
+277        <activity
+277-->[io.github.lucksiege:ucrop:v3.10.9] C:\Users\islam\.gradle\caches\transforms-3\0be332aec60bdc95094cb762210e84aa\transformed\jetified-ucrop-v3.10.9\AndroidManifest.xml:10:9-14:72
+278            android:name="com.yalantis.ucrop.UCropActivity"
+278-->[io.github.lucksiege:ucrop:v3.10.9] C:\Users\islam\.gradle\caches\transforms-3\0be332aec60bdc95094cb762210e84aa\transformed\jetified-ucrop-v3.10.9\AndroidManifest.xml:11:13-60
+279            android:configChanges="orientation|keyboardHidden|screenSize"
+279-->[io.github.lucksiege:ucrop:v3.10.9] C:\Users\islam\.gradle\caches\transforms-3\0be332aec60bdc95094cb762210e84aa\transformed\jetified-ucrop-v3.10.9\AndroidManifest.xml:12:13-74
+280            android:screenOrientation="portrait"
+280-->[io.github.lucksiege:ucrop:v3.10.9] C:\Users\islam\.gradle\caches\transforms-3\0be332aec60bdc95094cb762210e84aa\transformed\jetified-ucrop-v3.10.9\AndroidManifest.xml:13:13-49
+281            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+281-->[io.github.lucksiege:ucrop:v3.10.9] C:\Users\islam\.gradle\caches\transforms-3\0be332aec60bdc95094cb762210e84aa\transformed\jetified-ucrop-v3.10.9\AndroidManifest.xml:14:13-69
+282        <activity
+282-->[io.github.lucksiege:ucrop:v3.10.9] C:\Users\islam\.gradle\caches\transforms-3\0be332aec60bdc95094cb762210e84aa\transformed\jetified-ucrop-v3.10.9\AndroidManifest.xml:15:9-19:72
+283            android:name="com.yalantis.ucrop.UCropMultipleActivity"
+283-->[io.github.lucksiege:ucrop:v3.10.9] C:\Users\islam\.gradle\caches\transforms-3\0be332aec60bdc95094cb762210e84aa\transformed\jetified-ucrop-v3.10.9\AndroidManifest.xml:16:13-68
+284            android:configChanges="orientation|keyboardHidden|screenSize"
+284-->[io.github.lucksiege:ucrop:v3.10.9] C:\Users\islam\.gradle\caches\transforms-3\0be332aec60bdc95094cb762210e84aa\transformed\jetified-ucrop-v3.10.9\AndroidManifest.xml:17:13-74
+285            android:screenOrientation="portrait"
+285-->[io.github.lucksiege:ucrop:v3.10.9] C:\Users\islam\.gradle\caches\transforms-3\0be332aec60bdc95094cb762210e84aa\transformed\jetified-ucrop-v3.10.9\AndroidManifest.xml:18:13-49
+286            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+286-->[io.github.lucksiege:ucrop:v3.10.9] C:\Users\islam\.gradle\caches\transforms-3\0be332aec60bdc95094cb762210e84aa\transformed\jetified-ucrop-v3.10.9\AndroidManifest.xml:19:13-69
+287        <activity
+287-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\islam\.gradle\caches\transforms-3\25f7820b621fcbf069b2cb31fcba42e2\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:23:9-27:75
+288            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+288-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\islam\.gradle\caches\transforms-3\25f7820b621fcbf069b2cb31fcba42e2\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:24:13-93
+289            android:excludeFromRecents="true"
+289-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\islam\.gradle\caches\transforms-3\25f7820b621fcbf069b2cb31fcba42e2\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:25:13-46
+290            android:exported="false"
+290-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\islam\.gradle\caches\transforms-3\25f7820b621fcbf069b2cb31fcba42e2\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:26:13-37
+291            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+291-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\islam\.gradle\caches\transforms-3\25f7820b621fcbf069b2cb31fcba42e2\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:27:13-72
+292        <!--
+293            Service handling Google Sign-In user revocation. For apps that do not integrate with
+294            Google Sign-In, this service will never be started.
+295        -->
+296        <service
+296-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\islam\.gradle\caches\transforms-3\25f7820b621fcbf069b2cb31fcba42e2\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:33:9-37:51
+297            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+297-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\islam\.gradle\caches\transforms-3\25f7820b621fcbf069b2cb31fcba42e2\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:34:13-89
+298            android:exported="true"
+298-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\islam\.gradle\caches\transforms-3\25f7820b621fcbf069b2cb31fcba42e2\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:35:13-36
+299            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+299-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\islam\.gradle\caches\transforms-3\25f7820b621fcbf069b2cb31fcba42e2\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:36:13-107
+300            android:visibleToInstantApps="true" />
+300-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\islam\.gradle\caches\transforms-3\25f7820b621fcbf069b2cb31fcba42e2\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:37:13-48
+301
+302        <receiver
+302-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\islam\.gradle\caches\transforms-3\0096cd9996f4d8d4c58a27f987b42c49\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:31:9-38:20
+303            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+303-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\islam\.gradle\caches\transforms-3\0096cd9996f4d8d4c58a27f987b42c49\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:32:13-78
+304            android:exported="true"
+304-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\islam\.gradle\caches\transforms-3\0096cd9996f4d8d4c58a27f987b42c49\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:33:13-36
+305            android:permission="com.google.android.c2dm.permission.SEND" >
+305-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\islam\.gradle\caches\transforms-3\0096cd9996f4d8d4c58a27f987b42c49\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:34:13-73
+306            <intent-filter>
+306-->[:firebase_messaging] E:\New folder\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-34:29
+307                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+307-->[:firebase_messaging] E:\New folder\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:17-81
+307-->[:firebase_messaging] E:\New folder\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:33:25-78
+308            </intent-filter>
+309        </receiver>
+310        <!--
+311             FirebaseMessagingService performs security checks at runtime,
+312             but set to not exported to explicitly avoid allowing another app to call it.
+313        -->
+314        <service
+314-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\islam\.gradle\caches\transforms-3\0096cd9996f4d8d4c58a27f987b42c49\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:44:9-51:19
+315            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+315-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\islam\.gradle\caches\transforms-3\0096cd9996f4d8d4c58a27f987b42c49\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:45:13-82
+316            android:directBootAware="true"
+316-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\islam\.gradle\caches\transforms-3\0096cd9996f4d8d4c58a27f987b42c49\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:46:13-43
+317            android:exported="false" >
+317-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\islam\.gradle\caches\transforms-3\0096cd9996f4d8d4c58a27f987b42c49\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:47:13-37
+318            <intent-filter android:priority="-500" >
+318-->[:firebase_messaging] E:\New folder\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-25:29
+319                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+319-->[:firebase_messaging] E:\New folder\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:17-78
+319-->[:firebase_messaging] E:\New folder\Exfai\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:24:25-75
+320            </intent-filter>
+321        </service>
+322
+323        <activity
+323-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\islam\.gradle\caches\transforms-3\237d3081442428b84c22a164c1a9fd7b\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+324            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+324-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\islam\.gradle\caches\transforms-3\237d3081442428b84c22a164c1a9fd7b\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+325            android:exported="false"
+325-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\islam\.gradle\caches\transforms-3\237d3081442428b84c22a164c1a9fd7b\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+326            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+326-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\islam\.gradle\caches\transforms-3\237d3081442428b84c22a164c1a9fd7b\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+327
+328        <provider
+328-->[com.google.firebase:firebase-common:20.3.2] C:\Users\islam\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
+329            android:name="com.google.firebase.provider.FirebaseInitProvider"
+329-->[com.google.firebase:firebase-common:20.3.2] C:\Users\islam\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:26:13-77
+330            android:authorities="com.exfai.exfai.firebaseinitprovider"
+330-->[com.google.firebase:firebase-common:20.3.2] C:\Users\islam\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:27:13-72
+331            android:directBootAware="true"
+331-->[com.google.firebase:firebase-common:20.3.2] C:\Users\islam\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:28:13-43
+332            android:exported="false"
+332-->[com.google.firebase:firebase-common:20.3.2] C:\Users\islam\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:29:13-37
+333            android:initOrder="100" />
+333-->[com.google.firebase:firebase-common:20.3.2] C:\Users\islam\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:30:13-36
+334
+335        <meta-data
+335-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\islam\.gradle\caches\transforms-3\c32180eb77f1d8ab3c20810eb5f11a42\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:21:9-23:69
+336            android:name="com.google.android.gms.version"
+336-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\islam\.gradle\caches\transforms-3\c32180eb77f1d8ab3c20810eb5f11a42\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:22:13-58
+337            android:value="@integer/google_play_services_version" />
+337-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\islam\.gradle\caches\transforms-3\c32180eb77f1d8ab3c20810eb5f11a42\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:23:13-66
+338
+339        <uses-library
+339-->[androidx.window:window:1.0.0-beta04] C:\Users\islam\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+340            android:name="androidx.window.extensions"
+340-->[androidx.window:window:1.0.0-beta04] C:\Users\islam\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+341            android:required="false" />
+341-->[androidx.window:window:1.0.0-beta04] C:\Users\islam\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+342        <uses-library
+342-->[androidx.window:window:1.0.0-beta04] C:\Users\islam\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+343            android:name="androidx.window.sidecar"
+343-->[androidx.window:window:1.0.0-beta04] C:\Users\islam\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+344            android:required="false" />
+344-->[androidx.window:window:1.0.0-beta04] C:\Users\islam\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+345
+346        <service
+346-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\islam\.gradle\caches\transforms-3\3f8abbb60d5c4c3da088d9cf8719f09b\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+347            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+347-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\islam\.gradle\caches\transforms-3\3f8abbb60d5c4c3da088d9cf8719f09b\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+348            android:exported="false" >
+348-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\islam\.gradle\caches\transforms-3\3f8abbb60d5c4c3da088d9cf8719f09b\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+349            <meta-data
+349-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\islam\.gradle\caches\transforms-3\3f8abbb60d5c4c3da088d9cf8719f09b\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+350                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+350-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\islam\.gradle\caches\transforms-3\3f8abbb60d5c4c3da088d9cf8719f09b\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+351                android:value="cct" />
+351-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\islam\.gradle\caches\transforms-3\3f8abbb60d5c4c3da088d9cf8719f09b\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+352        </service>
+353        <service
+353-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\islam\.gradle\caches\transforms-3\832066d38c964edf87a4ceac992c0cb0\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+354            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+354-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\islam\.gradle\caches\transforms-3\832066d38c964edf87a4ceac992c0cb0\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+355            android:exported="false"
+355-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\islam\.gradle\caches\transforms-3\832066d38c964edf87a4ceac992c0cb0\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+356            android:permission="android.permission.BIND_JOB_SERVICE" >
+356-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\islam\.gradle\caches\transforms-3\832066d38c964edf87a4ceac992c0cb0\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+357        </service>
+358
+359        <receiver
+359-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\islam\.gradle\caches\transforms-3\832066d38c964edf87a4ceac992c0cb0\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+360            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+360-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\islam\.gradle\caches\transforms-3\832066d38c964edf87a4ceac992c0cb0\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+361            android:exported="false" />
+361-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\islam\.gradle\caches\transforms-3\832066d38c964edf87a4ceac992c0cb0\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+362
+363        <provider
+363-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\islam\.gradle\caches\transforms-3\ef4c45e08659a72755f147d134c0e2af\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+364            android:name="androidx.startup.InitializationProvider"
+364-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\islam\.gradle\caches\transforms-3\ef4c45e08659a72755f147d134c0e2af\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:25:13-67
+365            android:authorities="com.exfai.exfai.androidx-startup"
+365-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\islam\.gradle\caches\transforms-3\ef4c45e08659a72755f147d134c0e2af\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:26:13-68
+366            android:exported="false" >
+366-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\islam\.gradle\caches\transforms-3\ef4c45e08659a72755f147d134c0e2af\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:27:13-37
+367            <meta-data
+367-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\islam\.gradle\caches\transforms-3\ef4c45e08659a72755f147d134c0e2af\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+368                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+368-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\islam\.gradle\caches\transforms-3\ef4c45e08659a72755f147d134c0e2af\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+369                android:value="androidx.startup" />
+369-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\islam\.gradle\caches\transforms-3\ef4c45e08659a72755f147d134c0e2af\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+370        </provider>
+371
+372        <receiver
+372-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\islam\.gradle\caches\transforms-3\ef4c45e08659a72755f147d134c0e2af\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+373            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+373-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\islam\.gradle\caches\transforms-3\ef4c45e08659a72755f147d134c0e2af\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+374            android:directBootAware="false"
+374-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\islam\.gradle\caches\transforms-3\ef4c45e08659a72755f147d134c0e2af\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+375            android:enabled="true"
+375-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\islam\.gradle\caches\transforms-3\ef4c45e08659a72755f147d134c0e2af\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+376            android:exported="true"
+376-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\islam\.gradle\caches\transforms-3\ef4c45e08659a72755f147d134c0e2af\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+377            android:permission="android.permission.DUMP" >
+377-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\islam\.gradle\caches\transforms-3\ef4c45e08659a72755f147d134c0e2af\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+378            <intent-filter>
+378-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\islam\.gradle\caches\transforms-3\ef4c45e08659a72755f147d134c0e2af\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+379                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+379-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\islam\.gradle\caches\transforms-3\ef4c45e08659a72755f147d134c0e2af\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+379-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\islam\.gradle\caches\transforms-3\ef4c45e08659a72755f147d134c0e2af\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+380            </intent-filter>
+381            <intent-filter>
+381-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\islam\.gradle\caches\transforms-3\ef4c45e08659a72755f147d134c0e2af\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+382                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+382-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\islam\.gradle\caches\transforms-3\ef4c45e08659a72755f147d134c0e2af\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+382-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\islam\.gradle\caches\transforms-3\ef4c45e08659a72755f147d134c0e2af\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+383            </intent-filter>
+384            <intent-filter>
+384-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\islam\.gradle\caches\transforms-3\ef4c45e08659a72755f147d134c0e2af\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+385                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+385-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\islam\.gradle\caches\transforms-3\ef4c45e08659a72755f147d134c0e2af\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+385-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\islam\.gradle\caches\transforms-3\ef4c45e08659a72755f147d134c0e2af\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+386            </intent-filter>
+387            <intent-filter>
+387-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\islam\.gradle\caches\transforms-3\ef4c45e08659a72755f147d134c0e2af\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+388                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+388-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\islam\.gradle\caches\transforms-3\ef4c45e08659a72755f147d134c0e2af\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+388-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\islam\.gradle\caches\transforms-3\ef4c45e08659a72755f147d134c0e2af\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+389            </intent-filter>
+390        </receiver>
+391
+392        <meta-data
+392-->[com.huawei.hms:scanplus:2.1.0.300] C:\Users\islam\.gradle\caches\transforms-3\dfbfa8a971a925d168a7cc2868e1d540\transformed\jetified-scanplus-2.1.0.300\AndroidManifest.xml:14:9-16:40
+393            android:name="huawei_module_scankit_local"
+393-->[com.huawei.hms:scanplus:2.1.0.300] C:\Users\islam\.gradle\caches\transforms-3\dfbfa8a971a925d168a7cc2868e1d540\transformed\jetified-scanplus-2.1.0.300\AndroidManifest.xml:15:13-55
+394            android:value="20100300" />
+394-->[com.huawei.hms:scanplus:2.1.0.300] C:\Users\islam\.gradle\caches\transforms-3\dfbfa8a971a925d168a7cc2868e1d540\transformed\jetified-scanplus-2.1.0.300\AndroidManifest.xml:16:13-37
+395        <meta-data
+395-->[com.huawei.hms:scanplus:2.1.0.300] C:\Users\islam\.gradle\caches\transforms-3\dfbfa8a971a925d168a7cc2868e1d540\transformed\jetified-scanplus-2.1.0.300\AndroidManifest.xml:17:9-19:50
+396            android:name="huawei_module_scankit_sdk_version"
+396-->[com.huawei.hms:scanplus:2.1.0.300] C:\Users\islam\.gradle\caches\transforms-3\dfbfa8a971a925d168a7cc2868e1d540\transformed\jetified-scanplus-2.1.0.300\AndroidManifest.xml:18:13-61
+397            android:value="scanplus:2.1.0.300" />
+397-->[com.huawei.hms:scanplus:2.1.0.300] C:\Users\islam\.gradle\caches\transforms-3\dfbfa8a971a925d168a7cc2868e1d540\transformed\jetified-scanplus-2.1.0.300\AndroidManifest.xml:19:13-47
+398        <meta-data
+398-->[com.huawei.hms:scanplus:2.1.0.300] C:\Users\islam\.gradle\caches\transforms-3\dfbfa8a971a925d168a7cc2868e1d540\transformed\jetified-scanplus-2.1.0.300\AndroidManifest.xml:20:9-22:50
+399            android:name="com.huawei.hms.client.service.name:scanplus"
+399-->[com.huawei.hms:scanplus:2.1.0.300] C:\Users\islam\.gradle\caches\transforms-3\dfbfa8a971a925d168a7cc2868e1d540\transformed\jetified-scanplus-2.1.0.300\AndroidManifest.xml:21:13-71
+400            android:value="scanplus:2.1.0.300" />
+400-->[com.huawei.hms:scanplus:2.1.0.300] C:\Users\islam\.gradle\caches\transforms-3\dfbfa8a971a925d168a7cc2868e1d540\transformed\jetified-scanplus-2.1.0.300\AndroidManifest.xml:22:13-47
+401        <meta-data
+401-->[com.huawei.hms:scanplus:2.1.0.300] C:\Users\islam\.gradle\caches\transforms-3\dfbfa8a971a925d168a7cc2868e1d540\transformed\jetified-scanplus-2.1.0.300\AndroidManifest.xml:23:9-25:33
+402            android:name="com.huawei.hms.min_api_level:scanplus:huawei_module_scankit"
+402-->[com.huawei.hms:scanplus:2.1.0.300] C:\Users\islam\.gradle\caches\transforms-3\dfbfa8a971a925d168a7cc2868e1d540\transformed\jetified-scanplus-2.1.0.300\AndroidManifest.xml:24:13-87
+403            android:value="1" />
+403-->[com.huawei.hms:scanplus:2.1.0.300] C:\Users\islam\.gradle\caches\transforms-3\dfbfa8a971a925d168a7cc2868e1d540\transformed\jetified-scanplus-2.1.0.300\AndroidManifest.xml:25:13-30
+404        <meta-data
+404-->[com.huawei.hms:scanplus:2.1.0.300] C:\Users\islam\.gradle\caches\transforms-3\dfbfa8a971a925d168a7cc2868e1d540\transformed\jetified-scanplus-2.1.0.300\AndroidManifest.xml:26:9-28:33
+405            android:name="com.huawei.hms.min_api_level:scanplus:hmscore"
+405-->[com.huawei.hms:scanplus:2.1.0.300] C:\Users\islam\.gradle\caches\transforms-3\dfbfa8a971a925d168a7cc2868e1d540\transformed\jetified-scanplus-2.1.0.300\AndroidManifest.xml:27:13-73
+406            android:value="1" />
+406-->[com.huawei.hms:scanplus:2.1.0.300] C:\Users\islam\.gradle\caches\transforms-3\dfbfa8a971a925d168a7cc2868e1d540\transformed\jetified-scanplus-2.1.0.300\AndroidManifest.xml:28:13-30
+407
+408        <activity android:name="com.huawei.hms.hmsscankit.ScanKitActivity" />
+408-->[com.huawei.hms:scanplus:2.1.0.300] C:\Users\islam\.gradle\caches\transforms-3\dfbfa8a971a925d168a7cc2868e1d540\transformed\jetified-scanplus-2.1.0.300\AndroidManifest.xml:30:9-78
+408-->[com.huawei.hms:scanplus:2.1.0.300] C:\Users\islam\.gradle\caches\transforms-3\dfbfa8a971a925d168a7cc2868e1d540\transformed\jetified-scanplus-2.1.0.300\AndroidManifest.xml:30:19-75
+409        <activity
+409-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\islam\.gradle\caches\transforms-3\4672d25836730679b75344d00501e79e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:47:9-53:63
+410            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+410-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\islam\.gradle\caches\transforms-3\4672d25836730679b75344d00501e79e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:48:13-74
+411            android:clearTaskOnLaunch="true"
+411-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\islam\.gradle\caches\transforms-3\4672d25836730679b75344d00501e79e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:49:13-45
+412            android:screenOrientation="sensorLandscape"
+412-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\islam\.gradle\caches\transforms-3\4672d25836730679b75344d00501e79e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:50:13-56
+413            android:stateNotNeeded="true"
+413-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\islam\.gradle\caches\transforms-3\4672d25836730679b75344d00501e79e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:51:13-42
+414            android:theme="@style/zxing_CaptureTheme"
+414-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\islam\.gradle\caches\transforms-3\4672d25836730679b75344d00501e79e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:52:13-54
+415            android:windowSoftInputMode="stateAlwaysHidden" />
+415-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\islam\.gradle\caches\transforms-3\4672d25836730679b75344d00501e79e\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:53:13-60
+416
+417        <meta-data
+417-->[com.huawei.hms:dynamic-api:1.0.13.303] C:\Users\islam\.gradle\caches\transforms-3\e68950caf65b25fe3f686fa17a2588ae\transformed\jetified-dynamic-api-1.0.13.303\AndroidManifest.xml:12:9-14:54
+418            android:name="com.huawei.hms.client.service.name:dynamic-api"
+418-->[com.huawei.hms:dynamic-api:1.0.13.303] C:\Users\islam\.gradle\caches\transforms-3\e68950caf65b25fe3f686fa17a2588ae\transformed\jetified-dynamic-api-1.0.13.303\AndroidManifest.xml:13:13-74
+419            android:value="dynamic-api:1.0.13.303" />
+419-->[com.huawei.hms:dynamic-api:1.0.13.303] C:\Users\islam\.gradle\caches\transforms-3\e68950caf65b25fe3f686fa17a2588ae\transformed\jetified-dynamic-api-1.0.13.303\AndroidManifest.xml:14:13-51
+420        <meta-data
+420-->[com.huawei.hms:dynamic-api:1.0.13.303] C:\Users\islam\.gradle\caches\transforms-3\e68950caf65b25fe3f686fa17a2588ae\transformed\jetified-dynamic-api-1.0.13.303\AndroidManifest.xml:15:9-17:33
+421            android:name="com.huawei.hms.min_api_level:dynamic-api:huawei_module_dynamicloader"
+421-->[com.huawei.hms:dynamic-api:1.0.13.303] C:\Users\islam\.gradle\caches\transforms-3\e68950caf65b25fe3f686fa17a2588ae\transformed\jetified-dynamic-api-1.0.13.303\AndroidManifest.xml:16:13-96
+422            android:value="2" />
+422-->[com.huawei.hms:dynamic-api:1.0.13.303] C:\Users\islam\.gradle\caches\transforms-3\e68950caf65b25fe3f686fa17a2588ae\transformed\jetified-dynamic-api-1.0.13.303\AndroidManifest.xml:17:13-30
+423
+424        <provider
+424-->[com.huawei.hms:ml-computer-sdkbase-inner:2.0.5.304] C:\Users\islam\.gradle\caches\transforms-3\ae5f76d545fca79c7d3eabc02d7dab02\transformed\jetified-ml-computer-sdkbase-inner-2.0.5.304\AndroidManifest.xml:13:9-16:40
+425            android:name="com.huawei.hms.mlsdk.common.provider.MLInitializerProvider"
+425-->[com.huawei.hms:ml-computer-sdkbase-inner:2.0.5.304] C:\Users\islam\.gradle\caches\transforms-3\ae5f76d545fca79c7d3eabc02d7dab02\transformed\jetified-ml-computer-sdkbase-inner-2.0.5.304\AndroidManifest.xml:14:13-86
+426            android:authorities="com.exfai.exfai.MLInitializerProvider"
+426-->[com.huawei.hms:ml-computer-sdkbase-inner:2.0.5.304] C:\Users\islam\.gradle\caches\transforms-3\ae5f76d545fca79c7d3eabc02d7dab02\transformed\jetified-ml-computer-sdkbase-inner-2.0.5.304\AndroidManifest.xml:15:13-73
+427            android:exported="false" />
+427-->[com.huawei.hms:ml-computer-sdkbase-inner:2.0.5.304] C:\Users\islam\.gradle\caches\transforms-3\ae5f76d545fca79c7d3eabc02d7dab02\transformed\jetified-ml-computer-sdkbase-inner-2.0.5.304\AndroidManifest.xml:16:13-37
+428        <provider
+428-->[com.huawei.agconnect:agconnect-core:1.4.0.300] C:\Users\islam\.gradle\caches\transforms-3\482dcbd23e90e334109c170b63b23e47\transformed\jetified-agconnect-core-1.4.0.300\AndroidManifest.xml:11:9-14:40
+429            android:name="com.huawei.agconnect.core.provider.AGConnectInitializeProvider"
+429-->[com.huawei.agconnect:agconnect-core:1.4.0.300] C:\Users\islam\.gradle\caches\transforms-3\482dcbd23e90e334109c170b63b23e47\transformed\jetified-agconnect-core-1.4.0.300\AndroidManifest.xml:12:13-90
+430            android:authorities="com.exfai.exfai.AGCInitializeProvider"
+430-->[com.huawei.agconnect:agconnect-core:1.4.0.300] C:\Users\islam\.gradle\caches\transforms-3\482dcbd23e90e334109c170b63b23e47\transformed\jetified-agconnect-core-1.4.0.300\AndroidManifest.xml:13:13-73
+431            android:exported="false" />
+431-->[com.huawei.agconnect:agconnect-core:1.4.0.300] C:\Users\islam\.gradle\caches\transforms-3\482dcbd23e90e334109c170b63b23e47\transformed\jetified-agconnect-core-1.4.0.300\AndroidManifest.xml:14:13-37
+432
+433        <service
+433-->[com.huawei.agconnect:agconnect-core:1.4.0.300] C:\Users\islam\.gradle\caches\transforms-3\482dcbd23e90e334109c170b63b23e47\transformed\jetified-agconnect-core-1.4.0.300\AndroidManifest.xml:16:9-18:40
+434            android:name="com.huawei.agconnect.core.ServiceDiscovery"
+434-->[com.huawei.agconnect:agconnect-core:1.4.0.300] C:\Users\islam\.gradle\caches\transforms-3\482dcbd23e90e334109c170b63b23e47\transformed\jetified-agconnect-core-1.4.0.300\AndroidManifest.xml:17:13-70
+435            android:exported="false" />
+435-->[com.huawei.agconnect:agconnect-core:1.4.0.300] C:\Users\islam\.gradle\caches\transforms-3\482dcbd23e90e334109c170b63b23e47\transformed\jetified-agconnect-core-1.4.0.300\AndroidManifest.xml:18:13-37
+436    </application>
+437
+438</manifest>

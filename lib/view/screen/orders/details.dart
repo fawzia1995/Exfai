@@ -7,6 +7,8 @@ class OrdersDetails extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // ignore: unused_local_variable
+    OrdersDetailsController controller = Get.put(OrdersDetailsController());
     return Scaffold(
       appBar: AppBar(
         title: const Text('Orders Details'),
@@ -77,14 +79,15 @@ class OrdersDetails extends StatelessWidget {
                   ),
                   if (controller.ordersModel.ordersType == "0")
                     Card(
-                      child: ListTile(
+                      child: Container(
+                          child: ListTile(
                         title: const Text("Shipping Address",
                             style: TextStyle(
                                 color: AppColor.primaryColor,
                                 fontWeight: FontWeight.bold)),
                         subtitle: Text(
                             "${controller.ordersModel.addressCity} ${controller.ordersModel.addressStreet}"),
-                      ),
+                      )),
                     ),
                   if (controller.ordersModel.ordersType == "0")
                     Card(

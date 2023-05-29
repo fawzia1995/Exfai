@@ -1,4 +1,6 @@
-import '../../../all_export.dart';
+// ignore_for_file: unused_local_variable
+
+import '../../../../all_export.dart';
 
 class AddressAdd extends StatelessWidget {
   const AddressAdd({Key? key}) : super(key: key);
@@ -40,10 +42,10 @@ class AddressAdd extends StatelessWidget {
                               onPressed: () {
                                 controllerpage.goToPageAddDetailsAddress();
                               },
-                              child:
-                                  Text("اكمال", style: TextStyle(fontSize: 18)),
                               color: AppColor.primaryColor,
                               textColor: Colors.white,
+                              child: const Text("اكمال",
+                                  style: TextStyle(fontSize: 18)),
                             ),
                           ),
                         )

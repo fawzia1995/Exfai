@@ -387,31 +387,31 @@
     },
     {
       "name": "google_maps_flutter",
-      "rootUri": "file:///C:/Users/islam/AppData/Local/Pub/Cache/hosted/pub.dev/google_maps_flutter-2.2.6",
+      "rootUri": "file:///C:/Users/islam/AppData/Local/Pub/Cache/hosted/pub.dev/google_maps_flutter-2.2.8",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "2.18"
     },
     {
       "name": "google_maps_flutter_android",
-      "rootUri": "file:///C:/Users/islam/AppData/Local/Pub/Cache/hosted/pub.dev/google_maps_flutter_android-2.4.14",
+      "rootUri": "file:///C:/Users/islam/AppData/Local/Pub/Cache/hosted/pub.dev/google_maps_flutter_android-2.4.15",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "google_maps_flutter_ios",
-      "rootUri": "file:///C:/Users/islam/AppData/Local/Pub/Cache/hosted/pub.dev/google_maps_flutter_ios-2.2.1",
+      "rootUri": "file:///C:/Users/islam/AppData/Local/Pub/Cache/hosted/pub.dev/google_maps_flutter_ios-2.2.3",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "google_maps_flutter_platform_interface",
-      "rootUri": "file:///C:/Users/islam/AppData/Local/Pub/Cache/hosted/pub.dev/google_maps_flutter_platform_interface-2.2.6",
+      "rootUri": "file:///C:/Users/islam/AppData/Local/Pub/Cache/hosted/pub.dev/google_maps_flutter_platform_interface-2.2.7",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.18"
     },
     {
       "name": "google_sign_in",
-      "rootUri": "file:///C:/Users/islam/AppData/Local/Pub/Cache/hosted/pub.dev/google_sign_in-6.1.0",
+      "rootUri": "file:///C:/Users/islam/AppData/Local/Pub/Cache/hosted/pub.dev/google_sign_in-6.1.2",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
@@ -435,7 +435,7 @@
     },
     {
       "name": "google_sign_in_web",
-      "rootUri": "file:///C:/Users/islam/AppData/Local/Pub/Cache/hosted/pub.dev/google_sign_in_web-0.12.0",
+      "rootUri": "file:///C:/Users/islam/AppData/Local/Pub/Cache/hosted/pub.dev/google_sign_in_web-0.12.0+1",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
@@ -597,9 +597,9 @@
     },
     {
       "name": "path_provider_linux",
-      "rootUri": "file:///C:/Users/islam/AppData/Local/Pub/Cache/hosted/pub.dev/path_provider_linux-2.1.10",
+      "rootUri": "file:///C:/Users/islam/AppData/Local/Pub/Cache/hosted/pub.dev/path_provider_linux-2.1.11",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "2.18"
     },
     {
       "name": "path_provider_platform_interface",
@@ -837,7 +837,7 @@
     },
     {
       "name": "url_launcher_android",
-      "rootUri": "file:///C:/Users/islam/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher_android-6.0.34",
+      "rootUri": "file:///C:/Users/islam/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher_android-6.0.35",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
@@ -867,9 +867,9 @@
     },
     {
       "name": "url_launcher_web",
-      "rootUri": "file:///C:/Users/islam/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher_web-2.0.16",
+      "rootUri": "file:///C:/Users/islam/AppData/Local/Pub/Cache/hosted/pub.dev/url_launcher_web-2.0.17",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "2.18"
     },
     {
       "name": "url_launcher_windows",
@@ -938,7 +938,7 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2023-05-28T04:17:06.605693Z",
+  "generated": "2023-05-29T03:13:37.047156Z",
   "generator": "pub",
   "generatorVersion": "3.0.1"
 }

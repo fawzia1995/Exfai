@@ -21,12 +21,21 @@ class CardOrdersListArchive extends GetView<OrdersArchiveController> {
                           fontSize: 18, fontWeight: FontWeight.bold)),
                   const Spacer(),
                   // Text(listdata.ordersDatetime!)
-                  // Text(
-                  //   Jiffy(listdata.ordersDatetime!, "yyyy-MM-dd").fromNow(),
-                  //   style: const TextStyle(
-                  //       color: AppColor.primaryColor,
-                  //       fontWeight: FontWeight.bold),
-                  // )
+                  //                 Text(
+                  // formattedDate,
+                  // style: const TextStyle(
+                  //   color: AppColor.primaryColor,
+                  //   fontWeight: FontWeight.bold,
+                  // ),
+                  Text(
+                    Jiffy.parseFromDateTime(
+                      listdata.ordersDatetime! as DateTime,
+                    ).fromNow(),
+                    style: const TextStyle(
+                      color: AppColor.primaryColor,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
                 ],
               ),
               const Divider(),

@@ -1,17 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-
-import '../../../controller/auth/login_controller.dart';
-import '../../../core/class/handlingdataview.dart';
-import '../../../core/constant/color.dart';
-import '../../../core/functions/alertexitapp.dart';
-import '../../../core/functions/validinput.dart';
-import '../../widget/auth/custombuttonauth.dart';
-import '../../widget/auth/customtextbodyauth.dart';
-import '../../widget/auth/customtextformauth.dart';
-import '../../widget/auth/customtexttitleauth.dart';
-import '../../widget/auth/logoauth.dart';
-import '../../widget/auth/textsignup.dart';
+import '../../../../all_export.dart';
 
 class Login extends StatelessWidget {
   const Login({Key? key}) : super(key: key);
@@ -24,31 +11,11 @@ class Login extends StatelessWidget {
         centerTitle: true,
         backgroundColor: AppColor.backgroundcolor,
         elevation: 0.0,
-        title: Row(
-          mainAxisAlignment: MainAxisAlignment.end,
-          children: [
-            Text(
-              'Sign In',
-              style: Theme.of(context)
-                  .textTheme
-                  .displayLarge!
-                  .copyWith(color: AppColor.grey),
-            ),
-            const SizedBox(width: 80),
-            InkWell(
-              onTap: () {
-                Get.toNamed('/homepage');
-              },
-              child: Text(
-                'Skip',
-                style: Theme.of(context)
-                    .textTheme
-                    .displayLarge!
-                    .copyWith(color: Colors.blue),
-              ),
-            ),
-          ],
-        ),
+        title: Text('Sign In',
+            style: Theme.of(context)
+                .textTheme
+                .headline1!
+                .copyWith(color: AppColor.grey)),
       ),
       body: WillPopScope(
           onWillPop: alertExitApp,

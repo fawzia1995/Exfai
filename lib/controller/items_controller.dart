@@ -1,6 +1,4 @@
-// ignore_for_file: overridden_fields
-
-import '../all_export.dart';
+import '../../all_export.dart';
 
 abstract class ItemsController extends GetxController {
   intialData();
@@ -19,6 +17,7 @@ class ItemsControllerImp extends SearchMixController {
   List data = [];
 
   @override
+  // ignore: overridden_fields
   late StatusRequest statusRequest;
 
   MyServices myServices = Get.find();
@@ -49,7 +48,6 @@ class ItemsControllerImp extends SearchMixController {
     statusRequest = StatusRequest.loading;
     var response = await testData.getData(
         categoryid, myServices.sharedPreferences.getString("id")!);
-    print("=============================== Controller $response ");
     statusRequest = handlingData(response);
     if (StatusRequest.success == statusRequest) {
       // Start backend

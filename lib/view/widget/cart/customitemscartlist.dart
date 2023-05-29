@@ -20,41 +20,43 @@ class CustomItemsCartList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      child: Row(children: [
-        Expanded(
-            flex: 2,
-            child: CachedNetworkImage(
-              imageUrl: "${AppLink.imagestItems}/$imagename",
-              height: 80,
-            )),
-        Expanded(
-            flex: 3,
-            child: ListTile(
-              title: Text(name, style: const TextStyle(fontSize: 15)),
-              subtitle: Text(price,
-                  style: const TextStyle(
-                      color: AppColor.primaryColor, fontSize: 17)),
-            )),
-        Expanded(
-            child: Column(
-          children: [
-            SizedBox(
-                height: 35,
-                child:
-                    IconButton(onPressed: onAdd, icon: const Icon(Icons.add))),
-            SizedBox(
-                height: 30,
-                child: Text(
-                  count,
-                  style: const TextStyle(fontFamily: "sans"),
-                )),
-            SizedBox(
-                height: 25,
-                child: IconButton(
-                    onPressed: onRemove, icon: const Icon(Icons.remove)))
-          ],
-        ))
-      ]),
+      child: Container(
+        child: Row(children: [
+          Expanded(
+              flex: 2,
+              child: CachedNetworkImage(
+                imageUrl: "${AppLink.imagestItems}/$imagename",
+                height: 80,
+              )),
+          Expanded(
+              flex: 3,
+              child: ListTile(
+                title: Text(name, style: const TextStyle(fontSize: 15)),
+                subtitle: Text(price,
+                    style: const TextStyle(
+                        color: AppColor.primaryColor, fontSize: 17)),
+              )),
+          Expanded(
+              child: Column(
+            children: [
+              SizedBox(
+                  height: 35,
+                  child: IconButton(
+                      onPressed: onAdd, icon: const Icon(Icons.add))),
+              SizedBox(
+                  height: 30,
+                  child: Text(
+                    count,
+                    style: const TextStyle(fontFamily: "sans"),
+                  )),
+              SizedBox(
+                  height: 25,
+                  child: IconButton(
+                      onPressed: onRemove, icon: const Icon(Icons.remove)))
+            ],
+          ))
+        ]),
+      ),
     );
   }
 }

@@ -1,7 +1,7 @@
 import 'package:dartz/dartz.dart';
-import 'package:http/http.dart' as http;
 
 import '../../all_export.dart';
+import 'package:http/http.dart' as http;
 
 class Crud {
   Future<Either<StatusRequest, Map>> postData(String linkurl, Map data) async {

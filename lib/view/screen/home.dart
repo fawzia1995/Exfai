@@ -1,3 +1,5 @@
+import 'package:exfai/view/widget/home/listcategorieshome.dart';
+
 import '../../all_export.dart';
 
 class HomePage extends StatelessWidget {

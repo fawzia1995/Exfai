@@ -1,4 +1,6 @@
-import '../all_export.dart';
+// ignore_for_file: overridden_fields
+
+import '../../all_export.dart';
 
 class MyFavoriteController extends SearchMixController {
   MyFavoriteData favoriteData = MyFavoriteData(Get.find());
@@ -6,7 +8,6 @@ class MyFavoriteController extends SearchMixController {
   List<MyFavoriteModel> data = [];
 
   @override
-  // ignore: overridden_fields
   late StatusRequest statusRequest;
 
   MyServices myServices = Get.find();
@@ -36,6 +37,8 @@ class MyFavoriteController extends SearchMixController {
   deleteFromFavorite(String favroiteid) {
     // data.clear();
     // statusRequest = StatusRequest.loading;
+    // ignore: unused_local_variable
+    var response = favoriteData.deleteData(favroiteid);
     data.removeWhere((element) => element.favoriteId == favroiteid);
     update();
   }

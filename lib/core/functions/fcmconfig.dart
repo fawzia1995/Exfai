@@ -1,6 +1,19 @@
+// ignore_for_file: unused_local_variable
+
 import '../../all_export.dart';
 
-requestPermissionNotification() async {}
+requestPermissionNotification() async {
+  NotificationSettings settings =
+      await FirebaseMessaging.instance.requestPermission(
+    alert: true,
+    announcement: false,
+    badge: true,
+    carPlay: false,
+    criticalAlert: false,
+    provisional: false,
+    sound: true,
+  );
+}
 
 fcmconfig() {
   FirebaseMessaging.onMessage.listen((message) {

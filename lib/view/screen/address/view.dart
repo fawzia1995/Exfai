@@ -1,10 +1,11 @@
-import '../../../all_export.dart';
+import '../../../../all_export.dart';
 
 class AddressView extends StatelessWidget {
   const AddressView({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
+    // ignore: unused_local_variable
     AddressViewController controller = Get.put(AddressViewController());
     return Scaffold(
         appBar: AppBar(
@@ -14,22 +15,20 @@ class AddressView extends StatelessWidget {
             onPressed: () {
               Get.toNamed(AppRoute.addressadd);
             },
-            child: Icon(Icons.add)),
+            child: const Icon(Icons.add)),
         body: GetBuilder<AddressViewController>(
           builder: (controller) => HandlingDataView(
             statusRequest: controller.statusRequest,
-            widget: Container(
-              child: ListView.builder(
-                itemCount: controller.data.length,
-                itemBuilder: (context, i) {
-                  return CardAddress(
-                    addressModel: controller.data[i],
-                    onDelete: () {
-                      controller.deleteAddress(controller.data[i].addressId!);
-                    },
-                  );
-                },
-              ),
+            widget: ListView.builder(
+              itemCount: controller.data.length,
+              itemBuilder: (context, i) {
+                return CardAddress(
+                  addressModel: controller.data[i],
+                  onDelete: () {
+                    controller.deleteAddress(controller.data[i].addressId!);
+                  },
+                );
+              },
             ),
           ),
         ));
@@ -46,13 +45,13 @@ class CardAddress extends StatelessWidget {
   Widget build(BuildContext context) {
     return Card(
       child: Container(
-          padding: EdgeInsets.all(10),
+          padding: const EdgeInsets.all(10),
           child: ListTile(
             title: Text(addressModel.addressName!),
             subtitle: Text(
                 "${addressModel.addressCity!} ${addressModel.addressStreet}"),
             trailing: IconButton(
-                onPressed: onDelete, icon: Icon(Icons.delete_outline)),
+                onPressed: onDelete, icon: const Icon(Icons.delete_outline)),
           )),
     );
   }

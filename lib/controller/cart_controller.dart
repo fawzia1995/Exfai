@@ -1,4 +1,4 @@
-import '../all_export.dart';
+import '../../all_export.dart';
 
 class CartController extends GetxController {
   TextEditingController? controllercoupon;
@@ -108,7 +108,6 @@ class CartController extends GetxController {
   resetVarCart() {
     totalcountitems = 0;
     priceorders = 0.0;
-
     data.clear();
   }
 
@@ -119,7 +118,6 @@ class CartController extends GetxController {
 
   view() async {
     statusRequest = StatusRequest.loading;
-
     update();
     var response =
         await cartData.viewCart(myServices.sharedPreferences.getString("id")!);

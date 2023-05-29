@@ -1,4 +1,4 @@
-import '../all_export.dart';
+import '../../all_export.dart';
 
 class CheckoutController extends GetxController {
   AddressData addressData = Get.put(AddressData(Get.find()));

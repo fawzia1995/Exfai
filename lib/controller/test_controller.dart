@@ -1,4 +1,4 @@
-import '../all_export.dart';
+import '../../all_export.dart';
 
 class TestController extends GetxController {
   TestData testData = TestData(Get.find());

@@ -1,4 +1,4 @@
-import '../all_export.dart';
+import '../../all_export.dart';
 
 abstract class ProductDetailsController extends GetxController {}
 
@@ -27,15 +27,12 @@ class ProductDetailsControllerImp extends ProductDetailsController {
     statusRequest = StatusRequest.loading;
     var response = await cartData.getCountCart(
         myServices.sharedPreferences.getString("id")!, itemsid);
-    print("=============================== Controller $response ");
     statusRequest = handlingData(response);
     if (StatusRequest.success == statusRequest) {
       // Start backend
       if (response['status'] == "success") {
         int countitems = 0;
         countitems = int.parse(response['data']);
-        print("==================================");
-        print("$countitems");
         return countitems;
         // data.addAll(response['data']);
       } else {
@@ -50,7 +47,6 @@ class ProductDetailsControllerImp extends ProductDetailsController {
     update();
     var response = await cartData.addCart(
         myServices.sharedPreferences.getString("id")!, itemsid);
-    print("=============================== Controller $response ");
     statusRequest = handlingData(response);
     if (StatusRequest.success == statusRequest) {
       // Start backend
@@ -73,7 +69,6 @@ class ProductDetailsControllerImp extends ProductDetailsController {
 
     var response = await cartData.deleteCart(
         myServices.sharedPreferences.getString("id")!, itemsid);
-    print("=============================== Controller $response ");
     statusRequest = handlingData(response);
     if (StatusRequest.success == statusRequest) {
       // Start backend

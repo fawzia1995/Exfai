@@ -1,3 +1,5 @@
+// ignore_for_file: unused_local_variable
+
 import '../../all_export.dart';
 
 abstract class LoginController extends GetxController {
@@ -72,7 +74,9 @@ class LoginControllerImp extends LoginController {
 
   @override
   void onInit() {
-    FirebaseMessaging.instance.getToken().then((value) {});
+    FirebaseMessaging.instance.getToken().then((value) {
+      String? token = value;
+    });
     email = TextEditingController();
     password = TextEditingController();
     super.onInit();

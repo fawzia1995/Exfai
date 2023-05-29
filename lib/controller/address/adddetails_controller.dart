@@ -21,9 +21,6 @@ class AddAddressDetailsController extends GetxController {
 
     lat = Get.arguments['lat'];
     long = Get.arguments['long'];
-
-    print(lat);
-    print(long);
   }
 
   addAddress() async {
@@ -37,8 +34,6 @@ class AddAddressDetailsController extends GetxController {
         street!.text,
         lat!,
         long!);
-
-    print("=============================== Controller $response ");
 
     statusRequest = handlingData(response);
 

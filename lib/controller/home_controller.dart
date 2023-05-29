@@ -1,4 +1,6 @@
-import '../all_export.dart';
+// ignore_for_file: overridden_fields
+
+import '../../all_export.dart';
 
 abstract class HomeController extends SearchMixController {
   initialData();
@@ -41,7 +43,6 @@ class HomeControllerImp extends HomeController {
   getdata() async {
     statusRequest = StatusRequest.loading;
     var response = await homedata.getData();
-    print("=============================== Controller $response ");
     statusRequest = handlingData(response);
     if (StatusRequest.success == statusRequest) {
       if (response['status'] == "success") {
@@ -77,7 +78,6 @@ class SearchMixController extends GetxController {
   searchData() async {
     statusRequest = StatusRequest.loading;
     var response = await homedata.searchData(search!.text);
-    print("=============================== Controller $response ");
     statusRequest = handlingData(response);
     if (StatusRequest.success == statusRequest) {
       if (response['status'] == "success") {

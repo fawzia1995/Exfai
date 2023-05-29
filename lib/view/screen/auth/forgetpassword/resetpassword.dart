@@ -1,14 +1,4 @@
-import 'package:exfai/view/widget/auth/customtextformauth.dart';
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-
-import '../../../../controller/forgetpassword/resetpassword_controller.dart';
-import '../../../../core/class/handlingdataview.dart';
-import '../../../../core/constant/color.dart';
-import '../../../../core/functions/validinput.dart';
-import '../../../widget/auth/custombuttonauth.dart';
-import '../../../widget/auth/customtextbodyauth.dart';
-import '../../../widget/auth/customtexttitleauth.dart';
+import '../../../../all_export.dart';
 
 class ResetPassword extends StatelessWidget {
   const ResetPassword({Key? key}) : super(key: key);

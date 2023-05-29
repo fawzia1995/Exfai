@@ -47,7 +47,6 @@ class Categories extends GetView<HomeControllerImp> {
             width: 70,
             child: SvgPicture.network(
                 "${AppLink.imagestCategories}/${categoriesModel.categoriesImage}",
-                // ignore: deprecated_member_use
                 color: AppColor.secondColor),
           ),
           Text(

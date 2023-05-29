@@ -1,16 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-
-import '../../../controller/auth/signup_controller.dart';
-import '../../../core/class/handlingdataview.dart';
-import '../../../core/constant/color.dart';
-import '../../../core/functions/alertexitapp.dart';
-import '../../../core/functions/validinput.dart';
-import '../../widget/auth/custombuttonauth.dart';
-import '../../widget/auth/customtextbodyauth.dart';
-import '../../widget/auth/customtextformauth.dart';
-import '../../widget/auth/customtexttitleauth.dart';
-import '../../widget/auth/textsignup.dart';
+import '../../../../all_export.dart';
 
 class SignUp extends StatelessWidget {
   const SignUp({Key? key}) : super(key: key);

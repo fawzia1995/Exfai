@@ -1,4 +1,4 @@
-import '../all_export.dart';
+import '../../all_export.dart';
 
 class NotificationController extends GetxController {
   NotificationData notificationData = NotificationData(Get.find());

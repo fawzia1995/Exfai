@@ -18,10 +18,8 @@ class MyApp extends StatelessWidget {
       locale: controller.language,
       theme: controller.appTheme,
       initialBinding: InitialBindings(),
-
       // routes: routes,
       getPages: routes,
-      //
     );
   }
 }

@@ -1,4 +1,4 @@
-import '../../../all_export.dart';
+import 'package:flutter/material.dart';
 
 class CustomTextTitleAuth extends StatelessWidget {
   final String text;
@@ -9,7 +9,7 @@ class CustomTextTitleAuth extends StatelessWidget {
     return Text(
       text,
       textAlign: TextAlign.center,
-      style: Theme.of(context).textTheme.displayMedium,
+      style: Theme.of(context).textTheme.bodyMedium,
     );
   }
 }

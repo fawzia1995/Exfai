@@ -1,6 +1,4 @@
-// ignore_for_file: library_private_types_in_public_api, prefer_typing_uninitialized_variables
-
-import '../all_export.dart';
+import '../../../all_export.dart';
 
 const kTileHeight = 50.0;
 
@@ -12,6 +10,7 @@ class TestPackage extends StatefulWidget {
   const TestPackage({super.key});
 
   @override
+  // ignore: library_private_types_in_public_api
   _ProcessTimelinePageState createState() => _ProcessTimelinePageState();
 }
 
@@ -61,8 +60,8 @@ class _ProcessTimelinePageState extends State<TestPackage> {
                 );
               },
               indicatorBuilder: (context, index) {
-                var color;
-                var child;
+                Color color;
+                Widget? child;
                 if (index == _processIndex) {
                   color = inProgressColor;
                   child = const Padding(
@@ -206,11 +205,11 @@ class _BezierPainter extends CustomPainter {
 
     final radius = size.width / 2;
 
-    var angle;
-    var offset1;
-    var offset2;
+    double angle;
+    Offset offset1;
+    Offset offset2;
 
-    var path;
+    Path path;
 
     if (drawStart) {
       angle = 3 * pi / 4;
@@ -218,7 +217,8 @@ class _BezierPainter extends CustomPainter {
       offset2 = _offset(radius, -angle);
       path = Path()
         ..moveTo(offset1.dx, offset1.dy)
-        ..quadraticBezierTo(0.0, size.height / 2, -radius, radius)
+        ..quadraticBezierTo(0.0, size.height / 2, -radius,
+            radius) // TODO connector start & gradient
         ..quadraticBezierTo(0.0, size.height / 2, offset2.dx, offset2.dy)
         ..close();
 
