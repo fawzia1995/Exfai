@@ -1,4 +1,4 @@
-import 'package:exfai/all_export.dart';
+import '../../all_export.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
