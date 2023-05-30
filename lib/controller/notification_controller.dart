@@ -21,6 +21,8 @@ class NotificationController extends GetxController {
         data.addAll(response['data']);
       } else {
         statusRequest = StatusRequest.failure;
+
+        //
       }
       // End
     }
