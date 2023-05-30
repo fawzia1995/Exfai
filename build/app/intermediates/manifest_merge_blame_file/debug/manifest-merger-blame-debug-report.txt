@@ -203,7 +203,7 @@
 112                android:resource="@style/NormalTheme" />
 113            <meta-data
 114                android:name="com.google.android.geo.API_KEY"
-115                android:value="AIzaSyBzk7UVq9oV2sgEBXs7KsIPUVKPIbwttiI" />
+115                android:value="AIzaSyAERKSFYMxdSR6mrMmgyesmQOr8miAFd4c" />
 116            <!-- android:value="AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWYAIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY"/> -->
 117            <!-- android:value="AIzaSyBzk7UVq9oV2sgEBXs7KsIPUVKPIbwttiI"/> -->
 118

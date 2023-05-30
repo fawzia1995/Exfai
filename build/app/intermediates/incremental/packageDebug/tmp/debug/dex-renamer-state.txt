@@ -1,4 +1,4 @@
-#Mon May 29 05:31:28 EET 2023
+#Tue May 30 00:46:22 EET 2023
 base.0=E\:\\New folder\\Exfai\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=E\:\\New folder\\Exfai\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\0\\classes.dex
 base.2=E\:\\New folder\\Exfai\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
