@@ -1,11 +1,11 @@
-#Tue May 30 00:46:22 EET 2023
-base.0=E\:\\New folder\\Exfai\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=E\:\\New folder\\Exfai\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\0\\classes.dex
-base.2=E\:\\New folder\\Exfai\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.3=E\:\\New folder\\Exfai\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
-base.4=E\:\\New folder\\Exfai\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex
-base.5=E\:\\New folder\\Exfai\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
-base.6=E\:\\New folder\\Exfai\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
+#Wed May 31 02:23:41 EET 2023
+base.0=D\:\\Exfai-1\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=D\:\\Exfai-1\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\0\\classes.dex
+base.2=D\:\\Exfai-1\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.3=D\:\\Exfai-1\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
+base.4=D\:\\Exfai-1\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex
+base.5=D\:\\Exfai-1\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+base.6=D\:\\Exfai-1\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=0/classes.dex

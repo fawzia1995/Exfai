@@ -169,6 +169,25 @@
                     }
                 },
                 {
+                    "source": "D:\\Exfai-1\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "176,832",
+                        "endLines": "7,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "483,998"
+                    },
+                    "to": {
+                        "startLines": "2071,2075",
+                        "startColumns": "4,4",
+                        "startOffsets": "125292,125473",
+                        "endLines": "2074,2077",
+                        "endColumns": "12,12",
+                        "endOffsets": "125468,125637"
+                    }
+                },
+                {
                     "source": "C:\\Users\\islam\\.gradle\\caches\\transforms-3\\40ff8c014bc3b03149787e1d45a42dea\\transformed\\jetified-window-1.0.0-beta04\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,7,8,9,10,11,19,23,34,51",
@@ -226,25 +245,6 @@
                     }
                 },
                 {
-                    "source": "E:\\New folder\\Exfai\\android\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "3,14",
-                        "startColumns": "4,4",
-                        "startOffsets": "176,832",
-                        "endLines": "7,16",
-                        "endColumns": "12,12",
-                        "endOffsets": "483,998"
-                    },
-                    "to": {
-                        "startLines": "2071,2075",
-                        "startColumns": "4,4",
-                        "startOffsets": "125292,125473",
-                        "endLines": "2074,2077",
-                        "endColumns": "12,12",
-                        "endOffsets": "125468,125637"
-                    }
-                },
-                {
                     "source": "C:\\Users\\islam\\.gradle\\caches\\transforms-3\\0096cd9996f4d8d4c58a27f987b42c49\\transformed\\jetified-firebase-messaging-23.1.2\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2",
@@ -276,23 +276,6 @@
                         "startOffsets": "45493",
                         "endColumns": "42",
                         "endOffsets": "45531"
-                    }
-                },
-                {
-                    "source": "E:\\New folder\\Exfai\\build\\app\\generated\\res\\google-services\\debug\\values\\values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,199,281,385,494,614,709",
-                        "endColumns": "143,81,103,108,119,94,71",
-                        "endOffsets": "194,276,380,489,609,704,776"
-                    },
-                    "to": {
-                        "startLines": "857,860,861,862,863,864,874",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "47935,48231,48313,48417,48526,48646,49804",
-                        "endColumns": "143,81,103,108,119,94,71",
-                        "endOffsets": "48074,48308,48412,48521,48641,48736,49871"
                     }
                 },
                 {
@@ -349,7 +332,7 @@
                     }
                 },
                 {
-                    "source": "E:\\New folder\\Exfai\\build\\image_pickers\\intermediates\\packaged_res\\debug\\values\\values.xml",
+                    "source": "D:\\Exfai-1\\build\\image_pickers\\intermediates\\packaged_res\\debug\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,20",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
@@ -420,6 +403,23 @@
                         "endLines": "400,401,402,403,404,405,406,407,839,840,841,842,843,844,845,846,848,849,850,851,852,853,854,855,856,4341,4840",
                         "endColumns": "89,79,89,89,79,80,79,79,104,180,124,106,179,122,115,102,187,104,180,124,174,147,62,61,78,20,20",
                         "endOffsets": "18362,18442,18532,18622,18702,18783,18863,18943,45702,45883,46008,46115,46295,46418,46534,46637,46992,47097,47278,47403,47578,47726,47789,47851,47930,228331,245907"
+                    }
+                },
+                {
+                    "source": "D:\\Exfai-1\\build\\app\\generated\\res\\google-services\\debug\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,199,281,385,494,614,709",
+                        "endColumns": "143,81,103,108,119,94,71",
+                        "endOffsets": "194,276,380,489,609,704,776"
+                    },
+                    "to": {
+                        "startLines": "857,860,861,862,863,864,874",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "47935,48231,48313,48417,48526,48646,49804",
+                        "endColumns": "143,81,103,108,119,94,71",
+                        "endOffsets": "48074,48308,48412,48521,48641,48736,49871"
                     }
                 },
                 {
