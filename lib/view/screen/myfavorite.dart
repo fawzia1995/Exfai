@@ -14,7 +14,7 @@ class MyFavorite extends StatelessWidget {
             builder: ((controller) => ListView(children: [
                   CustomAppBar(
                     mycontroller: controller.search!,
-                    titleappbar: "Find Product",
+                    titleappbar: "findProduct".tr,
                     iconData: Icons.arrow_forward,
                     // onPressedIcon: () {},
                     onPressedSearch: () {
