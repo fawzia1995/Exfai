@@ -12,11 +12,11 @@ class TestView extends StatelessWidget {
             color: AppColor.secondColor,
             textColor: Colors.white,
             onPressed: () {},
-            child: const Text("CheckOut",
+            child: Text("CheckOut",
                 style: TextStyle(
                     color: Colors.white,
                     fontWeight: FontWeight.bold,
-                    fontSize: 18)),
+                    fontSize: 18.sp)),
           )),
       appBar: AppBar(
         centerTitle: true,

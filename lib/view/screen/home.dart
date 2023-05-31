@@ -15,7 +15,7 @@ class HomePage extends StatelessWidget {
           children: [
             CustomAppBar(
               mycontroller: controller.search!,
-              titleappbar: "Find Product",
+              titleappbar: "findProduct".tr,
               // onPressedIcon: () {},
               onPressedSearch: () {
                 controller.onSearchItems();

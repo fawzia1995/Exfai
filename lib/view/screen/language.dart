@@ -1,4 +1,5 @@
 import '../../all_export.dart';
+import '../../core/constant/language/localization/changelocal.dart';
 
 class Language extends GetView<LocaleController> {
   const Language({Key? key}) : super(key: key);
